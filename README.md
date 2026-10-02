@@ -34,7 +34,7 @@ The site contains Home, Destinations, Japan, Korea, Türkiye, Greece, Dubai, Ser
 
 ## Deployment
 
-Import this repository into the requested Vercel team, select Next.js and use the repository root as the project root. No secret environment variables are required.
+Published at [prosperity-website.vercel.app](https://prosperity-website.vercel.app), connected to [xrishz/prosperity_website](https://github.com/xrishz/prosperity_website) in [the Prosperity Vercel project](https://vercel.com/xrishzs-projects/prosperity-website). The production branch is `codex/prosperity-website`; Vercel uses Next.js with the repository root as its project root. No secret environment variables are required. See `AUDIT.md` for release verification and its practical limits.
 
 Set `NEXT_PUBLIC_SITE_URL` to the final public production origin when a custom domain is confirmed. Otherwise the site uses `VERCEL_PROJECT_PRODUCTION_URL` on Vercel. Local builds fall back to `http://localhost:3000`. Verify canonical links, social metadata, the sitemap and robots URL after the deployment is ready.
 
