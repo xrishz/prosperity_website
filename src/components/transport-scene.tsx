@@ -205,6 +205,7 @@ export function TransportScene({ vehicle, motionEnabled, destination = '', class
     let camera: Three.OrthographicCamera | undefined;
     let model: Model | undefined;
     let lastTime = 0, lastPaint = 0, elapsed = 0;
+    let displayedHeading = heading.current;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
     const small = window.matchMedia('(max-width: 767px)');
     const canvas = document.createElement('canvas');
@@ -216,7 +217,7 @@ export function TransportScene({ vehicle, motionEnabled, destination = '', class
       const t = small.matches || reduced.matches ? 0 : elapsed;
       if (vehicle === 'plane') {
         model.group.position.y = Math.sin(t * .30) * .065;
-        model.group.rotation.set(.025, -.22 + heading.current + Math.sin(t * .12) * .022, .065 + Math.sin(t * .24) * .027);
+        model.group.rotation.set(.025, -.22 + displayedHeading + Math.sin(t * .12) * .022, .065 + Math.sin(t * .24) * .027);
       } else {
         const bouncePhase = t * 6;
         // Keep the road and wheel contact points fixed while the suspension rebounds.
@@ -246,7 +247,10 @@ export function TransportScene({ vehicle, motionEnabled, destination = '', class
     };
     const animate = (time: number) => {
       if (time - lastPaint < 1000 / 30) return;
-      elapsed += lastTime ? Math.min((time - lastTime) / 1000, .08) : 0;
+      const step = lastTime ? Math.min((time - lastTime) / 1000, .08) : 0;
+      elapsed += step;
+      // A new country changes the target orientation, never the plane's current pose.
+      displayedHeading += (heading.current - displayedHeading) * (1 - Math.exp(-step * 8));
       lastTime = time;
       lastPaint = time;
       draw();

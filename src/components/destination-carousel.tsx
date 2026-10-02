@@ -3,13 +3,11 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import AutoScroll from 'embla-carousel-auto-scroll';
-import { motion } from 'motion/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { IconArrowLeft, IconArrowRight, IconArrowUpRight, IconPlayerPause, IconPlayerPlay } from '@tabler/icons-react';
 import { destinations } from '@/lib/content';
 import { useTravelMotion } from './travel-motion-provider';
-import { TransportScene } from './transport-scene';
 
 type Navigation = 'previous' | 'next' | 'first' | 'last';
 const keyDirections: Partial<Record<string, Navigation>> = { ArrowRight: 'next', ArrowLeft: 'previous', Home: 'first', End: 'last' };
@@ -25,7 +23,7 @@ export function DestinationCarousel() {
     stopOnFocusIn: false,
   })]);
   const autoScroll = plugins[0];
-  const [ref, api] = useEmblaCarousel({ align: 'start', loop: true, watchDrag: true }, plugins);
+  const [ref, api] = useEmblaCarousel({ align: 'center', loop: true, watchDrag: true }, plugins);
   const [selected, setSelected] = useState(0);
   const [previous, setPrevious] = useState(false);
   const [next, setNext] = useState(true);
@@ -55,6 +53,46 @@ export function DestinationCarousel() {
       setAnnouncement(`${destinations[index].name}, destination ${index + 1} of ${destinations.length}.`);
     }
   }, [api, autoScroll]);
+
+  useEffect(() => {
+    if (!api || reducedMotion) return;
+    const slides = api.slideNodes();
+    const cards = slides.map((slide) => slide.querySelector<HTMLElement>('.destination-card'));
+    let frame = 0;
+    const paintDepth = () => {
+      frame = 0;
+      const viewport = api.rootNode().getBoundingClientRect();
+      const center = viewport.left + viewport.width / 2;
+      const compact = viewport.width < 600;
+      // Measure the unrotated slide wrappers, including Embla's loop offsets,
+      // before writing any transforms to their inner photo cards.
+      const offsets = slides.map((slide) => {
+        const bounds = slide.getBoundingClientRect();
+        return Math.max(-2, Math.min(2, (bounds.left + bounds.width / 2 - center) / (bounds.width + (compact ? 18 : 32))));
+      });
+      offsets.forEach((offset, index) => {
+        const card = cards[index];
+        if (!card) return;
+        const distance = Math.abs(offset);
+        card.style.setProperty('--destination-turn', `${(-offset * (compact ? 18 : 28)).toFixed(3)}deg`);
+        card.style.setProperty('--destination-depth', `${((compact ? 36 : 64) - distance * (compact ? 45 : 86)).toFixed(3)}px`);
+        card.style.setProperty('--destination-drop', `${(distance * (compact ? 10 : 20)).toFixed(3)}px`);
+        card.style.setProperty('--destination-scale', `${(1 - distance * .055).toFixed(4)}`);
+        slides[index].style.zIndex = `${Math.round(100 - distance * 20)}`;
+      });
+    };
+    const scheduleDepth = () => { if (!frame) frame = requestAnimationFrame(paintDepth); };
+    api.on('scroll', scheduleDepth).on('reInit', scheduleDepth).on('resize', scheduleDepth);
+    scheduleDepth();
+    return () => {
+      cancelAnimationFrame(frame);
+      api.off('scroll', scheduleDepth).off('reInit', scheduleDepth).off('resize', scheduleDepth);
+      cards.forEach((card, index) => {
+        ['--destination-turn', '--destination-depth', '--destination-drop', '--destination-scale'].forEach((property) => card?.style.removeProperty(property));
+        slides[index].style.removeProperty('z-index');
+      });
+    };
+  }, [api, reducedMotion]);
 
   useEffect(() => {
     if (!api) return;
@@ -117,6 +155,7 @@ export function DestinationCarousel() {
       ref={section}
       className="section destination-section"
       data-carousel-motion={actuallyPlaying ? 'on' : 'off'}
+      data-carousel-depth={!reducedMotion ? 'on' : 'off'}
       aria-labelledby="destinations-heading"
       onMouseEnter={() => { activity.current.hovered = true; reconcile(); }}
       onMouseLeave={() => { activity.current.hovered = false; reconcile(); }}
@@ -131,10 +170,7 @@ export function DestinationCarousel() {
         <p>Five places to spark your plans.<br />One team to help you get there.</p>
         <Link className="text-link" href="/destinations">Explore all destinations <IconArrowUpRight size={19} aria-hidden /></Link>
       </div>
-      <div className="destination-convoy">
-        <div className="convoy-bus" aria-hidden="true"><TransportScene vehicle="bus" motionEnabled={actuallyPlaying} /></div>
-        <div className="convoy-tow" aria-hidden="true" />
-        <div className="convoy-road" aria-hidden="true" />
+      <div className="destination-orbit">
         <div
         id="destination-carousel-viewport"
         className="destination-viewport"
@@ -154,13 +190,13 @@ export function DestinationCarousel() {
         <div className="destination-track">
           {destinations.map((destination, index) => (
             <article className="destination-slide" key={destination.slug} aria-roledescription="slide" aria-label={`${index + 1} of ${destinations.length}: ${destination.name}`}>
-              <motion.div className="destination-card" animate={{ scale: !motionEnabled || reducedMotion ? 1 : selected === index ? 1 : .98, opacity: 1 }} transition={{ duration: motionEnabled && !reducedMotion ? .35 : 0 }}>
+              <div className="destination-card">
                 <Link href={`/destinations/${destination.slug}`} className="destination-photo" draggable={false}>
                   <Image src={destination.image} alt={destination.alt} fill draggable={false} sizes="(max-width: 600px) 78vw, (max-width: 1024px) 43vw, 350px" />
                   <div className="destination-caption"><h3>{destination.name}</h3><span className="round-arrow"><IconArrowUpRight size={23} aria-hidden /></span></div>
                 </Link>
                 <p>{destination.region}<span>{destination.phrase}</span></p>
-              </motion.div>
+              </div>
             </article>
           ))}
         </div>

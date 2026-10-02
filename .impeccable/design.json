@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-02T12:32:12.050Z",
+  "generatedAt": "2026-10-02T16:57:37.652Z",
   "title": "Design System: Prosperity International Travel Services",
   "extensions": {
     "colorMeta": {
@@ -825,8 +825,8 @@
       },
       {
         "name": "country-flight",
-        "value": "1.2s cubic-bezier(.36,0,.25,1)",
-        "purpose": "Destination aircraft pass before photographs reveal."
+        "value": "1.5s; matched resting endpoints; concealed offscreen reposition",
+        "purpose": "Destination departure and smooth return before photos reveal; repeated choices keep the running flight and reveal the latest selection."
       },
       {
         "name": "photo-reveal",
@@ -844,9 +844,9 @@
         "purpose": "Ambient cloud movement when permitted."
       },
       {
-        "name": "convoy-road",
-        "value": "2s linear infinite",
-        "purpose": "Road marks beneath the bus-led destination rail."
+        "name": "destination-depth",
+        "value": "1000px perspective; center +64px; sides up to 56deg yaw; compact 900px/+36px/36deg",
+        "purpose": "Centered photo cards project forward and sides recede, following Embla scroll events in one RAF. Manual mobile depth is retained; OS reduced motion uses flat cards. No destination bus or road."
       },
       {
         "name": "cursor-turn",
@@ -950,7 +950,7 @@
   ],
   "narrative": {
     "northStar": "3D Travel Atlas",
-    "overview": "A lively 3D Travel Atlas pairs sky-blue and sunshine-yellow regions with evergreen controls, rounded photographs and softly lit cartoon transport. Real landscapes and real people provide the visual substance; aircraft, coaches, clouds and route marks create an inviting travel atmosphere. Low-contrast cross marks and soft section gradients connect the regions without competing with their copy.\n\nManrope carries a confident, friendly voice through heavy headings, compact controls and clear body text. Photo windows overlap, lean and lift where the composition calls for it. Practical navigation and inquiry fields keep simpler geometry. The transparent original oval identity remains visible within the colorful world.",
+    "overview": "A lively 3D Travel Atlas pairs sky-blue and sunshine-yellow regions with evergreen controls, rounded photographs and softly lit cartoon transport. Real landscapes and real people provide the visual substance; aircraft, a service coach, clouds and perspective destination cards create an inviting travel atmosphere. Low-contrast cross marks and soft section gradients connect the regions without competing with their copy.\n\nManrope carries a confident, friendly voice through heavy headings, compact controls and clear body text. Photo windows overlap, lean and lift where the composition calls for it. Practical navigation and inquiry fields keep simpler geometry. The transparent original oval identity remains visible within the colorful world.",
     "keyCharacteristics": [
       "Sky-blue, sunshine-yellow and evergreen regions with paired readable ink.",
       "Heavy Manrope headings and clear compact controls.",

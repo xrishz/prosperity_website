@@ -214,7 +214,7 @@ Atlas Sky carries the arrival scene and sky regions, paired with Atlas Sky Ink. 
 
 ### Tertiary
 
-Atlas Yellow is the sunshine field, selected country treatment and numbered step marker; its evergreen ink stays fixed. Coral warms the service gradient. Sea marks the convoy route. Brand Gold remains an identity accent rather than the main section color.
+Atlas Yellow is the sunshine field, selected country treatment and numbered step marker; its evergreen ink stays fixed. Coral warms the service gradient. Sea remains a supporting travel accent. Brand Gold remains an identity accent rather than the main section color.
 
 ### Neutral
 
@@ -273,7 +273,7 @@ Country buttons sit on the sky region, use current-color borders and become suns
 
 ### Photograph windows
 
-Gallery photos use rounded cover crops with captions below, while destination carousel photos use a dedicated lower image overlay and media caption. Hero photographs overlap with white rims, opposite tilts and soft shadows. Keep actual media in production; sidecar previews use labeled, asset-free placeholders to show component geometry.
+Gallery photos use rounded cover crops with captions below, while destination carousel photos use a dedicated lower image overlay, white photograph edges and media captions. The centered carousel card projects forward; side cards angle away and recede through CSS perspective. Hero photographs overlap with white rims, opposite tilts and soft shadows. Keep actual media in production; sidecar previews use labeled, asset-free placeholders to show component geometry.
 
 ### Inquiry fields
 
@@ -281,7 +281,7 @@ External labels sit above plainly bounded fields. Focus uses the shared three-pi
 
 ### Travel motion
 
-Arrival is a finite two-second aircraft pass. With motion enabled, a country change runs a 1.2-second pass before the photographs appear; static selection is immediate. Ambient clouds, convoy road and transport remain subordinate to the content. The carousel pauses during hover, focus, dragging, local pause, hidden pages and offscreen placement, with manual controls retained. The decorative desktop pointer uses a 44px airplane with a connected cyan, white and gold tail that grows from 20px during slow movement to 320px at high speed. Trail length follows traveled distance per millisecond, filtered over 60ms separately from heading, so a fast reversal keeps its long tail. Its heading eases into and out of turns without overshoot; the tail follows the displayed airplane angle and fades within 450ms after movement stops. It appears only for an eligible fine desktop mouse, and normal editing cursors remain available.
+Arrival is a finite two-second aircraft pass. With motion enabled, a country change runs a 1.5-second departure and return before the photographs appear; static selection is immediate. Departure begins and arrival finishes at the same resting pose; offscreen repositioning is concealed. Rapid selection preserves the running flight and reveals the latest destination. Ambient clouds and the service coach remain subordinate to the content. The destination carousel contains no bus or road. Its perspective responds to manual dragging on phones and desktop, while OS reduced motion flattens its cards. The carousel pauses during hover, focus, dragging, local pause, hidden pages and offscreen placement, with manual controls retained. The decorative desktop pointer uses a 44px airplane with a connected cyan, white and gold tail that grows from 20px during slow movement to 320px at high speed. Trail length follows traveled distance per millisecond, filtered over 60ms separately from heading, so a fast reversal keeps its long tail. Its heading eases into and out of turns without overshoot; the tail follows the displayed airplane angle and fades within 450ms after movement stops. It appears only for an eligible fine desktop mouse, and normal editing cursors remain available.
 
 **The Motion Permission Rule.** Treat arrival and selection transitions as finite events. Pause ambient motion when requested, when reduced motion applies, or when the scene cannot be seen; keep all destinations and inquiry actions usable without animation.
 

@@ -1,6 +1,6 @@
 'use client';
 
-import {useEffect, useRef, useState} from 'react';
+import {useCallback, useEffect, useRef, useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {IconArrowDown, IconArrowUpRight, IconMapPin} from '@tabler/icons-react';
@@ -12,18 +12,33 @@ const scenes: Record<string, {image: string; alt: string; second: string; second
   japan: {image: '/images/japan-fuji.webp', alt: 'Mount Fuji framed by cherry blossoms beside a lake', second: '/images/japan-kyoto-autumn.webp', secondAlt: 'Kyoto temple above bright red autumn trees', place: 'Mount Fuji & Kyoto'},
   korea: {image: '/images/korea-busan-colorful.webp', alt: 'Colorful houses along the hillsides of Gamcheon Culture Village', second: '/images/korea-palace.webp', secondAlt: 'Traditional palace gate in Seoul', place: 'Busan & Seoul'},
   turkey: {image: '/images/cappadocia-alternate.webp', alt: 'Balloons floating over the valleys of Cappadocia', second: '/images/turkey-istanbul-ferry.webp', secondAlt: 'A ferry crossing the Bosphorus at sunset', place: 'Cappadocia & Istanbul'},
-  greece: {image: '/images/greece-voutoumi-beach.webp', alt: 'Turquoise water beside the white beach and green hills of Voutoumi', second: '/images/greece-santorini.webp', secondAlt: 'Blue-domed church above the Aegean Sea in Santorini', place: 'Voutoumi & Santorini'},
+  greece: {image: '/images/greece-voutoumi-beach.webp', alt: 'Turquoise water beside the white beach and green hills of Voutoumi', second: '/images/greece-santorini.webp', secondAlt: 'Blue-domed church above the Aegean Sea in Santorini', place: 'Voutoumi Beach · Santorini'},
   dubai: {image: '/images/dubai-golden-dunes.webp', alt: 'Golden sand dunes lit by a warm desert sunset', second: '/images/dubai-skyline.webp', secondAlt: 'Dubai skyline with the Burj Khalifa', place: 'Desert & skyline'},
 };
 
 export function Hero() {
   const [selected, setSelected] = useState('greece');
   const [isSwitching, setIsSwitching] = useState(false);
-  const [flight, setFlight] = useState(0);
+  const flightElement = useRef<HTMLDivElement>(null);
+  const flightActive = useRef(false);
   const revealTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const destination = destinations.find(item => item.slug === selected)!;
   const scene = scenes[selected];
   const {motionEnabled} = useTravelMotion();
+
+  const finishFlight = useCallback(() => {
+    flightActive.current = false;
+    if (revealTimer.current) clearTimeout(revealTimer.current);
+    revealTimer.current = null;
+    setIsSwitching(false);
+  }, []);
+
+  useEffect(() => {
+    const plane = flightElement.current;
+    // Pausing motion, reducing motion, or changing viewport must also reveal the photos.
+    plane?.addEventListener('animationcancel', finishFlight);
+    return () => plane?.removeEventListener('animationcancel', finishFlight);
+  }, [finishFlight]);
 
   useEffect(() => () => {
     if (revealTimer.current) clearTimeout(revealTimer.current);
@@ -31,14 +46,17 @@ export function Hero() {
 
   function chooseDestination(slug: string) {
     if (slug === selected) return;
-    if (revealTimer.current) clearTimeout(revealTimer.current);
     setSelected(slug);
-    setFlight(value => value + 1);
-    setIsSwitching(motionEnabled);
-    if (motionEnabled) revealTimer.current = setTimeout(() => {
-      setIsSwitching(false);
-      revealTimer.current = null;
-    }, 1200);
+    if (!motionEnabled) {
+      finishFlight();
+      return;
+    }
+    // A second choice changes the destination without teleporting a plane already in flight.
+    if (flightActive.current) return;
+    flightActive.current = true;
+    setIsSwitching(true);
+    // Animation completion normally reveals the photos; this bounds interrupted timelines.
+    revealTimer.current = setTimeout(finishFlight, 1700);
   }
 
   const inFlight = isSwitching && motionEnabled;
@@ -70,7 +88,8 @@ export function Hero() {
         <figure className="atlas-photo-small" key={scene.second}>
           <Image src={scene.second} alt={scene.secondAlt} fill sizes="(max-width: 767px) 40vw, 220px"/>
         </figure>
-        <div className="atlas-plane-flight" data-flight={inFlight ? (flight % 2 ? 'a' : 'b') : undefined}>
+        <div className="atlas-plane-flight" ref={flightElement} data-flight={inFlight ? 'switching' : undefined}
+          onAnimationEnd={event => { if (event.target === event.currentTarget) finishFlight(); }}>
           <TransportScene vehicle="plane" destination={selected} motionEnabled={motionEnabled} className="atlas-plane"/>
           <span className="atlas-flight-trail" aria-hidden/>
         </div>

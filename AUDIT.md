@@ -1,3 +1,19 @@
+# Destination flight, 3D carousel and tourist photographs — 3 October 2026
+
+Narrow refinement of the published Travel Atlas. The destination airplane now runs a 1.5-second departure and arrival with identical resting start/end transforms. Its concealed return reposition is transparent; rapid choices preserve the active flight and reveal the latest destination. Animation-end completion and a 1.7-second interruption fallback prevent permanently hidden photos. Plane-heading damping removes a destination-attitude snap. The caption is now Voutoumi Beach · Santorini, with normal tracking, 1.5 line height and the theme's contrasting sky ink.
+
+The destination bus, tow line and road were replaced by centered perspective photograph cards. Embla keeps its .65 autoplay, mouse/touch dragging, arrows, keyboard, pause and offscreen/visibility behavior. Depth is projected from untransformed slide wrappers including loop offsets, with batched reads/writes in a scroll-event RAF. Manual compact depth remains on phones; autoplay stays off there. OS reduced motion uses flat cards. The separate service coach remains.
+
+Ten licensed real Unsplash photographs expand the gallery to twenty, exactly four per destination, with location-specific captions, alt descriptions, visible source credits and provenance sidecars. New places include Fushimi Inari, Shibuya Crossing, N Seoul Tower, Seongsan Ilchulbong, Hagia Sophia, Pamukkale, the Acropolis, Meteora, Museum of the Future and Burj Al Arab. Asset review decoded all twenty WebPs, found no duplicates or invalid country-route mappings and confirmed matching license/credit declarations. The new source assets total about 2.44MB and use maximum 1400px width; Next Image serves responsive lazy variants.
+
+Production build, ESLint, TypeScript and whitespace checks pass. Seven affected local page/planner routes returned HTTP 200. Source review found no material blockers in .impeccable/review/atlas-refinement-technical.md. Production-preview browser checks covered desktop and mobile changed sections, light and dark caption/card treatment, continuous flight completion/latest selection, mouse drag without navigation, keyboard End/Home and arrows, local pause, loop geometry, actual 390px manual touch/depth with no overflow and hidden decorative cursor, and flat OS reduced-motion cards. Greece filtering returns four photos, and both new Greece images decoded and rendered. No inquiry was sent.
+
+Evidence: .impeccable/review/refinements/carousel-desktop.jpg, gallery-greece.jpg and carousel-mobile-dark.jpg. The last filename is historical: its final valid 390px capture is light. Earlier overwritten wrong-viewport/arrival frames are excluded. hero-desktop.jpg shows the corrected dark caption; its development badge comes from a hot-reload dependency-array change and is not production evidence. Console history contains that earlier localhost:3001 hot-reload message; no new warnings/errors were observed from the production-preview origin. This is a changed-section inspection, not a fresh full-site certification, physical-device performance test or full WCAG audit.
+
+Independent visual finish review returned **ship**, with no material fixes in the requested changed-section scope. The review and its limits are recorded in .impeccable/review/atlas-refinement-finish.md.
+
+## Earlier completed Travel Atlas review
+
 # Travel Atlas redesign — 2 October 2026
 
 Current candidate: the approved colorful 3D Travel Atlas with cartoon vehicle motion, destination/photo exploration, core values and a consistent trip-inquiry goal. The earlier editorial release's scores below are historical and do not grade this redesign.
@@ -67,3 +83,4 @@ All 19 shipping raster assets have source/derivative and served-dimension record
 No separate QUALITY BAR card or decision-comp image was supplied. The original concept-roll stdout was not retained; a contemporaneous pre-build checkpoint corroborates the recorded seed and brief-pinned direction. Five reference inspections informed the build. These records do not constitute a formal ceiling comparison or retrospectively generated methodology proof.
 
 See `CONTENT-TODO.md` for business-day and messaging confirmations, optional brand/media additions and future verified promotions. A custom domain can be added when supplied.
+
