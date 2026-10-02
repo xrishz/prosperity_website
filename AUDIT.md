@@ -83,4 +83,3 @@ All 19 shipping raster assets have source/derivative and served-dimension record
 No separate QUALITY BAR card or decision-comp image was supplied. The original concept-roll stdout was not retained; a contemporaneous pre-build checkpoint corroborates the recorded seed and brief-pinned direction. Five reference inspections informed the build. These records do not constitute a formal ceiling comparison or retrospectively generated methodology proof.
 
 See `CONTENT-TODO.md` for business-day and messaging confirmations, optional brand/media additions and future verified promotions. A custom domain can be added when supplied.
-
