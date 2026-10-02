@@ -1,0 +1,2 @@
+import type {MetadataRoute} from 'next';import {siteUrl} from '@/lib/metadata';import {destinations} from '@/lib/content';
+export default function sitemap():MetadataRoute.Sitemap{return ['/','/destinations','/services','/about','/contact','/plan','/privacy','/site-use',...destinations.map(d=>`/destinations/${d.slug}`)].map(path=>({url:`${siteUrl}${path}`,changeFrequency:'monthly',priority:path==='/'?1:.7}))}

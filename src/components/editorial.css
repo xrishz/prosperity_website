@@ -1,0 +1,121 @@
+.editorial-intro { padding-bottom: clamp(2rem, 5vw, 4rem); }
+.editorial-intro h1 { max-width: 17ch; text-wrap: balance; }
+.editorial-intro > p { max-width: 58ch; margin-top: 1.2rem; }
+.editorial-intro > .button { margin-top: 1.65rem; }
+.editorial-intro .breadcrumb { margin-bottom: 2.4rem; }
+.destination-index { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem 2rem; }
+.destination-entry:first-child { grid-column: 1 / -1; }
+.destination-entry-link { display: block; color: var(--foreground); text-decoration: none; }
+.destination-entry-image { position: relative; aspect-ratio: 1.45; overflow: hidden; }
+.destination-entry:first-child .destination-entry-image { aspect-ratio: 2.45; }
+.destination-entry-image img, .destination-more-link img { object-fit: cover; transition: transform 500ms cubic-bezier(.16, 1, .3, 1); }
+.destination-entry-link:hover img, .destination-more-link:hover img { transform: scale(1.025); }
+.destination-entry-title { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1.1rem; }
+.destination-entry-title h2 { margin: 0; font-size: clamp(1.6rem, 3vw, 2.4rem); }
+.destination-entry-title svg { flex-shrink: 0; color: var(--primary); }
+.destination-entry p { margin: .4rem 0 0; }
+.destination-entry-region { color: var(--muted-foreground); font-size: .9rem; }
+.editorial-invitation { max-width: 880px; text-align: center; }
+.editorial-invitation p { max-width: 54ch; margin: 1.2rem auto 1.8rem; }
+.destination-intro h1 { max-width: none; }
+.destination-phrase { font-size: clamp(1.2rem, 2.8vw, 1.8rem); color: var(--foreground); }
+.destination-hero, .destination-second-view, .about-office-hero { margin-top: 0; margin-bottom: 0; }
+.destination-hero-image { position: relative; aspect-ratio: 2.3; }
+.destination-hero-image img, .destination-second-view img, .destination-client-story img, .service-group-image img, .about-office-hero img, .about-team-grid img, .about-visit img { object-fit: cover; }
+.destination-hero figcaption, .destination-second-view figcaption, .destination-client-story figcaption, .service-group figcaption, .about-office-hero figcaption, .about-visit figcaption { color: var(--muted-foreground); font-size: .8rem; line-height: 1.5; margin-top: .8rem; }
+.destination-story { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 6rem); }
+.destination-story h2 { max-width: 15ch; }
+.destination-story-lead { margin-top: 1.3rem; font-size: 1.1rem; }
+.destination-moods { padding: 0; margin: 1.7rem 0 0; list-style: none; display: grid; gap: .75rem; }
+.destination-moods li { display: flex; align-items: center; gap: .7rem; }
+.destination-moods svg { color: var(--primary); flex-shrink: 0; }
+.destination-second-view .photo { position: relative; aspect-ratio: 2.3; }
+.destination-client-story { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+.destination-client-story figure, .service-group figure, .about-team-grid figure, .about-visit figure { margin: 0; }
+.destination-client-story .photo { position: relative; aspect-ratio: 1.3; }
+.destination-client-story p { margin: 1.3rem 0 1.7rem; }
+.destination-assistance > p, .service-process > p { max-width: 65ch; margin: 1.2rem 0; }
+.destination-assistance-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; border-top: 1px solid var(--border); padding-top: 1.9rem; margin: 2.2rem 0; }
+.destination-assistance-list h3 { margin: 0 0 .7rem; }
+.destination-assistance-list p { margin: 0; }
+.destination-services-link { margin-left: 1.5rem; }
+.destination-more-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin: 2rem 0; }
+.destination-more-link { color: var(--foreground); text-decoration: none; }
+.destination-more-link .photo { position: relative; overflow: hidden; aspect-ratio: 1.65; }
+.destination-more-link > span { margin-top: .9rem; display: flex; align-items: center; justify-content: space-between; font-size: 1.4rem; font-weight: 600; }
+.destination-more-link svg { color: var(--primary); }
+.service-directory { display: grid; gap: clamp(3.5rem, 8vw, 7rem); }
+.service-group { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+.service-group-1 figure { order: 2; }
+.service-group-2 { padding-top: 2rem; border-top: 1px solid var(--border); }
+.service-group-2 figure { display: none; }
+.service-group-2 .service-group-copy { grid-column: 1 / -1; max-width: 880px; }
+.service-group-image { position: relative; aspect-ratio: 1.2; }
+.service-group-copy > p { margin: 1.2rem 0 1.7rem; max-width: 50ch; }
+.service-group-copy ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .85rem; }
+.service-group-copy li { display: flex; align-items: baseline; gap: .8rem; }
+.service-group-copy li svg { align-self: center; flex-shrink: 0; color: var(--primary); }
+.service-group-0 ul { grid-template-columns: 1fr 1fr; column-gap: 1.5rem; }
+.service-group-2 ul { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 580px; }
+.service-process ol { list-style-position: inside; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.4rem; margin: 2.3rem 0; }
+.service-process li { border-top: 1px solid var(--border); padding-top: 1.2rem; }
+.service-process li::marker { color: var(--primary); font-weight: 650; }
+.service-process h3 { display: inline; margin-left: .3rem; }
+.service-process li p { margin: .9rem 0 0; }
+.service-note { color: var(--muted-foreground); font-size: .95rem; }
+.service-process .button { margin-top: 1.2rem; }
+.about-office-hero .photo { position: relative; aspect-ratio: 2; }
+.about-office-hero img { object-position: center 54%; }
+.about-story { display: grid; grid-template-columns: 1fr 1.2fr; gap: clamp(2rem, 6vw, 6rem); }
+.about-story h2 { max-width: 12ch; }
+.about-team > p { margin: 1.2rem 0 2rem; }
+.about-team-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; }
+.about-team-grid .photo { position: relative; aspect-ratio: .8; }
+.about-team-grid img { object-position: center 22%; }
+.about-team-grid figcaption { margin-top: 1rem; color: var(--foreground); font-size: 1.1rem; font-weight: 600; }
+.about-values { display: grid; grid-template-columns: 1fr 1.2fr; gap: clamp(2rem, 6vw, 6rem); }
+.about-values-intro p { margin-top: 1.3rem; max-width: 45ch; }
+.about-values dl { margin: 0; display: grid; gap: 1.5rem; }
+.about-values dl > div { display: grid; grid-template-columns: 1fr 1.4fr; gap: 1.2rem; padding-bottom: 1.4rem; border-bottom: 1px solid var(--border); }
+.about-values dt { font-weight: 650; }
+.about-values dd { margin: 0; color: var(--muted-foreground); }
+.about-registered { border-top: 1px solid var(--border); }
+.about-registered > p { margin: 1.2rem 0; }
+.about-registered ul { display: flex; gap: 1.5rem 2.5rem; flex-wrap: wrap; list-style: none; padding: 0; margin: 1.6rem 0; }
+.about-registered li { display: flex; align-items: center; gap: .65rem; }
+.about-registered svg { flex-shrink: 0; color: var(--primary); }
+.editorial-source-note { color: var(--muted-foreground); font-size: .85rem; }
+.about-visit { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+.about-visit .photo { position: relative; aspect-ratio: 1.1; }
+.about-visit > div > p { margin: 1.3rem 0; }
+.about-address { display: flex; gap: .75rem; align-items: flex-start; }
+.about-address svg { flex-shrink: 0; color: var(--primary); margin-top: .15rem; }
+.about-visit .button { margin-top: .75rem; }
+@media (max-width: 850px) {
+  .service-group-0 ul { grid-template-columns: 1fr; }
+  .destination-story, .about-story, .about-values { grid-template-columns: 1fr; }
+  .destination-story h2, .about-story h2 { max-width: 24ch; }
+  .about-team-grid { gap: 1rem; }
+  .destination-assistance-list { gap: 1.3rem; }
+}
+@media (max-width: 650px) {
+  .editorial-intro .breadcrumb { margin-bottom: 1.6rem; }
+  .destination-index { grid-template-columns: 1fr; gap: 2.2rem; }
+  .destination-entry:first-child .destination-entry-image, .destination-entry-image { aspect-ratio: 1.25; }
+  .destination-hero-image, .destination-second-view .photo { aspect-ratio: 1.2; }
+  .destination-more-grid { gap: 1.3rem; grid-template-columns: 1fr; }
+  .destination-client-story, .service-group, .about-visit { grid-template-columns: 1fr; }
+  .destination-assistance-list, .service-process ol { grid-template-columns: 1fr; gap: 1.8rem; }
+  .destination-services-link { display: flex; width: fit-content; margin: 1.3rem 0 0; }
+  .service-group-1 figure { order: 0; }
+  .service-group-image { aspect-ratio: 1.35; }
+  .service-group-2 ul { grid-template-columns: 1fr; }
+  .about-office-hero .photo { aspect-ratio: 1.25; }
+  .about-team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.8rem 1rem; }
+  .about-values dl > div { grid-template-columns: 1fr; gap: .5rem; }
+  .about-registered ul { flex-direction: column; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .destination-entry-image img, .destination-more-link img { transition: none; }
+  .destination-entry-link:hover img, .destination-more-link:hover img { transform: none; }
+}

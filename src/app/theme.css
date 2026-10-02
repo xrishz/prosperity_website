@@ -1,0 +1,140 @@
+/* The Evergreen Travel Journal: appearance roles, not component color overrides. */
+:root {
+  color-scheme: light;
+  --background: #f7f5ef;
+  --foreground: #182b26;
+  --surface-elevated: #fffefa;
+  --surface-subtle: #eeece4;
+  --muted-foreground: #52635c;
+  --border: #d6d7ce;
+  --border-strong: #7a887e;
+  --primary: #0b3734;
+  --primary-foreground: #fffefa;
+  --primary-hover: #245a4d;
+  --secondary: var(--surface-subtle);
+  --secondary-foreground: var(--foreground);
+  --accent: #d4af68;
+  --accent-foreground: #78612e;
+  --link-hover: #705823;
+  --danger: #a02a2a;
+  --focus-ring: #0b3734;
+  --focus-contrast: #fffefa;
+  --header-background: #faf9f5;
+  --footer-background: #eeece4;
+  --input-background: #fffefa;
+  --disabled-background: #e4e6dd;
+  --disabled-foreground: #52635c;
+  --scrollbar-thumb: #617669;
+  --logo-background: #fffefa;
+
+  /* Confirmed brand and image contrast stay independent of appearance. */
+  --brand-green: #0b3734;
+  --brand-gold: #d4af68;
+  --media-background: #123a33;
+  --media-foreground: #fffefa;
+  --media-muted-foreground: #f0f4e9;
+  --media-caption-foreground: #edf2e9;
+  --media-secondary-foreground: #e3ede3;
+  --media-border: #fffefab3;
+  --media-control-background: #03181570;
+  --media-button-background: #fffefa;
+  --media-button-foreground: #0b3734;
+  --media-button-hover: #e8d3a3;
+  --overlay-dark: #031a15;
+  --overlay-light: #fffefa;
+  --hero-overlay: linear-gradient(90deg, #0418164d, #0418160a 80%), linear-gradient(0deg, #031614d6, transparent 78%);
+  --destination-overlay: linear-gradient(transparent 55%, #031814bf);
+  --cta-overlay: linear-gradient(90deg, #031a15d9, #031a151f);
+  --selection-background: #e8d3a3;
+  --selection-foreground: #0b3734;
+  --mobile-action-shadow: 0 -4px 20px #0b37341a;
+
+  /* Retain established component aliases while semantic roles carry the themes. */
+  --surface: var(--background);
+  --surface-alt: var(--surface-subtle);
+  --ink: var(--foreground);
+  --muted: var(--muted-foreground);
+  --green: var(--primary);
+  --gold: var(--brand-gold);
+  --line: var(--border);
+  --white: var(--media-foreground);
+
+  /* Dark primitives also supply the CSS-only system fallback. */
+  --dark-background: #102b28;
+  --dark-foreground: #f3f5ee;
+  --dark-surface-elevated: #1d3f39;
+  --dark-surface-subtle: #183a35;
+  --dark-muted-foreground: #becfc6;
+  --dark-border: #38534a;
+  --dark-border-strong: #799789;
+  --dark-primary: #d5e6cf;
+  --dark-primary-foreground: #0b3734;
+  --dark-primary-hover: #e5eddf;
+  --dark-accent-foreground: #e8cc91;
+  --dark-link-hover: #e8cc91;
+  --dark-danger: #ffaba8;
+  --dark-focus-ring: #d5e6cf;
+  --dark-focus-contrast: #0b3734;
+  --dark-header-background: #102b28;
+  --dark-footer-background: #102b28;
+  --dark-input-background: #183a35;
+  --dark-disabled-background: #28473e;
+  --dark-disabled-foreground: #becfc6;
+  --dark-scrollbar-thumb: #799789;
+  --dark-logo-background: #fafbf8;
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+  --background: var(--dark-background);
+  --foreground: var(--dark-foreground);
+  --surface-elevated: var(--dark-surface-elevated);
+  --surface-subtle: var(--dark-surface-subtle);
+  --muted-foreground: var(--dark-muted-foreground);
+  --border: var(--dark-border);
+  --border-strong: var(--dark-border-strong);
+  --primary: var(--dark-primary);
+  --primary-foreground: var(--dark-primary-foreground);
+  --primary-hover: var(--dark-primary-hover);
+  --accent-foreground: var(--dark-accent-foreground);
+  --link-hover: var(--dark-link-hover);
+  --danger: var(--dark-danger);
+  --focus-ring: var(--dark-focus-ring);
+  --focus-contrast: var(--dark-focus-contrast);
+  --header-background: var(--dark-header-background);
+  --footer-background: var(--dark-footer-background);
+  --input-background: var(--dark-input-background);
+  --disabled-background: var(--dark-disabled-background);
+  --disabled-foreground: var(--dark-disabled-foreground);
+  --scrollbar-thumb: var(--dark-scrollbar-thumb);
+  --logo-background: var(--dark-logo-background);
+}
+
+/* A system fallback before JavaScript, without overriding an explicit choice. */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) {
+    color-scheme: dark;
+    --background: var(--dark-background);
+    --foreground: var(--dark-foreground);
+    --surface-elevated: var(--dark-surface-elevated);
+    --surface-subtle: var(--dark-surface-subtle);
+    --muted-foreground: var(--dark-muted-foreground);
+    --border: var(--dark-border);
+    --border-strong: var(--dark-border-strong);
+    --primary: var(--dark-primary);
+    --primary-foreground: var(--dark-primary-foreground);
+    --primary-hover: var(--dark-primary-hover);
+    --accent-foreground: var(--dark-accent-foreground);
+    --link-hover: var(--dark-link-hover);
+    --danger: var(--dark-danger);
+    --focus-ring: var(--dark-focus-ring);
+    --focus-contrast: var(--dark-focus-contrast);
+    --header-background: var(--dark-header-background);
+    --footer-background: var(--dark-footer-background);
+    --input-background: var(--dark-input-background);
+    --disabled-background: var(--dark-disabled-background);
+    --disabled-foreground: var(--dark-disabled-foreground);
+    --scrollbar-thumb: var(--dark-scrollbar-thumb);
+    --logo-background: var(--dark-logo-background);
+  }
+}

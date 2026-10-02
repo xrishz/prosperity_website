@@ -1,0 +1,1114 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T05:14:19.430Z",
+  "title": "Design System: Prosperity International Travel Services",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Warm Ivory",
+        "tonalRamp": [
+          "oklch(0.1500 0.0082 91.48)",
+          "oklch(0.2643 0.0082 91.48)",
+          "oklch(0.3786 0.0082 91.48)",
+          "oklch(0.4929 0.0082 91.48)",
+          "oklch(0.6071 0.0082 91.48)",
+          "oklch(0.7214 0.0082 91.48)",
+          "oklch(0.8357 0.0082 91.48)",
+          "oklch(0.9500 0.0082 91.48)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Evergreen Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0267 175.72)",
+          "oklch(0.2643 0.0267 175.72)",
+          "oklch(0.3786 0.0267 175.72)",
+          "oklch(0.4929 0.0267 175.72)",
+          "oklch(0.6071 0.0267 175.72)",
+          "oklch(0.7214 0.0267 175.72)",
+          "oklch(0.8357 0.0267 175.72)",
+          "oklch(0.9500 0.0267 175.72)"
+        ]
+      },
+      "surface-elevated": {
+        "role": "neutral",
+        "displayName": "Warm White",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "surface-subtle": {
+        "role": "neutral",
+        "displayName": "Linen Paper",
+        "tonalRamp": [
+          "oklch(0.1500 0.0109 95.17)",
+          "oklch(0.2643 0.0109 95.17)",
+          "oklch(0.3786 0.0109 95.17)",
+          "oklch(0.4929 0.0109 95.17)",
+          "oklch(0.6071 0.0109 95.17)",
+          "oklch(0.7214 0.0109 95.17)",
+          "oklch(0.8357 0.0109 95.17)",
+          "oklch(0.9500 0.0109 95.17)"
+        ]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Soft Evergreen Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0235 168.49)",
+          "oklch(0.2643 0.0235 168.49)",
+          "oklch(0.3786 0.0235 168.49)",
+          "oklch(0.4929 0.0235 168.49)",
+          "oklch(0.6071 0.0235 168.49)",
+          "oklch(0.7214 0.0235 168.49)",
+          "oklch(0.8357 0.0235 168.49)",
+          "oklch(0.9500 0.0235 168.49)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Quiet Rule",
+        "tonalRamp": [
+          "oklch(0.1500 0.0122 111.79)",
+          "oklch(0.2643 0.0122 111.79)",
+          "oklch(0.3786 0.0122 111.79)",
+          "oklch(0.4929 0.0122 111.79)",
+          "oklch(0.6071 0.0122 111.79)",
+          "oklch(0.7214 0.0122 111.79)",
+          "oklch(0.8357 0.0122 111.79)",
+          "oklch(0.9500 0.0122 111.79)"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Control Stroke",
+        "tonalRamp": [
+          "oklch(0.1500 0.0221 154.60)",
+          "oklch(0.2643 0.0221 154.60)",
+          "oklch(0.3786 0.0221 154.60)",
+          "oklch(0.4929 0.0221 154.60)",
+          "oklch(0.6071 0.0221 154.60)",
+          "oklch(0.7214 0.0221 154.60)",
+          "oklch(0.8357 0.0221 154.60)",
+          "oklch(0.9500 0.0221 154.60)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Evergreen Action",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "primary-foreground": {
+        "role": "primary",
+        "displayName": "Action Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Evergreen Hover",
+        "tonalRamp": [
+          "oklch(0.1500 0.0615 174.99)",
+          "oklch(0.2643 0.0615 174.99)",
+          "oklch(0.3786 0.0615 174.99)",
+          "oklch(0.4929 0.0615 174.99)",
+          "oklch(0.6071 0.0615 174.99)",
+          "oklch(0.7214 0.0615 174.99)",
+          "oklch(0.8357 0.0615 174.99)",
+          "oklch(0.9500 0.0615 174.99)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Supporting Surface",
+        "tonalRamp": [
+          "oklch(0.1500 0.0109 95.17)",
+          "oklch(0.2643 0.0109 95.17)",
+          "oklch(0.3786 0.0109 95.17)",
+          "oklch(0.4929 0.0109 95.17)",
+          "oklch(0.6071 0.0109 95.17)",
+          "oklch(0.7214 0.0109 95.17)",
+          "oklch(0.8357 0.0109 95.17)",
+          "oklch(0.9500 0.0109 95.17)"
+        ]
+      },
+      "secondary-foreground": {
+        "role": "neutral",
+        "displayName": "Supporting Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0267 175.72)",
+          "oklch(0.2643 0.0267 175.72)",
+          "oklch(0.3786 0.0267 175.72)",
+          "oklch(0.4929 0.0267 175.72)",
+          "oklch(0.6071 0.0267 175.72)",
+          "oklch(0.7214 0.0267 175.72)",
+          "oklch(0.8357 0.0267 175.72)",
+          "oklch(0.9500 0.0267 175.72)"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Warm Gold",
+        "tonalRamp": [
+          "oklch(0.1500 0.0995 82.63)",
+          "oklch(0.2643 0.0995 82.63)",
+          "oklch(0.3786 0.0995 82.63)",
+          "oklch(0.4929 0.0995 82.63)",
+          "oklch(0.6071 0.0995 82.63)",
+          "oklch(0.7214 0.0995 82.63)",
+          "oklch(0.8357 0.0995 82.63)",
+          "oklch(0.9500 0.0995 82.63)"
+        ]
+      },
+      "accent-foreground": {
+        "role": "secondary",
+        "displayName": "Gold Utility Ink",
+        "tonalRamp": [
+          "oklch(0.1500 0.0750 85.21)",
+          "oklch(0.2643 0.0750 85.21)",
+          "oklch(0.3786 0.0750 85.21)",
+          "oklch(0.4929 0.0750 85.21)",
+          "oklch(0.6071 0.0750 85.21)",
+          "oklch(0.7214 0.0750 85.21)",
+          "oklch(0.8357 0.0750 85.21)",
+          "oklch(0.9500 0.0750 85.21)"
+        ]
+      },
+      "link-hover": {
+        "role": "secondary",
+        "displayName": "Warm Link Accent",
+        "tonalRamp": [
+          "oklch(0.1500 0.0770 84.48)",
+          "oklch(0.2643 0.0770 84.48)",
+          "oklch(0.3786 0.0770 84.48)",
+          "oklch(0.4929 0.0770 84.48)",
+          "oklch(0.6071 0.0770 84.48)",
+          "oklch(0.7214 0.0770 84.48)",
+          "oklch(0.8357 0.0770 84.48)",
+          "oklch(0.9500 0.0770 84.48)"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Validation Red",
+        "tonalRamp": [
+          "oklch(0.1500 0.1545 25.38)",
+          "oklch(0.2643 0.1545 25.38)",
+          "oklch(0.3786 0.1545 25.38)",
+          "oklch(0.4929 0.1545 25.38)",
+          "oklch(0.6071 0.1545 25.38)",
+          "oklch(0.7214 0.1545 25.38)",
+          "oklch(0.8357 0.1545 25.38)",
+          "oklch(0.9500 0.1545 25.38)"
+        ]
+      },
+      "focus-ring": {
+        "role": "primary",
+        "displayName": "Evergreen Focus",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "focus-contrast": {
+        "role": "neutral",
+        "displayName": "Focus Contrast",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "header-background": {
+        "role": "neutral",
+        "displayName": "Header Paper",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "footer-background": {
+        "role": "neutral",
+        "displayName": "Footer Linen",
+        "tonalRamp": [
+          "oklch(0.1500 0.0109 95.17)",
+          "oklch(0.2643 0.0109 95.17)",
+          "oklch(0.3786 0.0109 95.17)",
+          "oklch(0.4929 0.0109 95.17)",
+          "oklch(0.6071 0.0109 95.17)",
+          "oklch(0.7214 0.0109 95.17)",
+          "oklch(0.8357 0.0109 95.17)",
+          "oklch(0.9500 0.0109 95.17)"
+        ]
+      },
+      "input-background": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "disabled-background": {
+        "role": "neutral",
+        "displayName": "Disabled Surface",
+        "tonalRamp": [
+          "oklch(0.1500 0.0122 116.82)",
+          "oklch(0.2643 0.0122 116.82)",
+          "oklch(0.3786 0.0122 116.82)",
+          "oklch(0.4929 0.0122 116.82)",
+          "oklch(0.6071 0.0122 116.82)",
+          "oklch(0.7214 0.0122 116.82)",
+          "oklch(0.8357 0.0122 116.82)",
+          "oklch(0.9500 0.0122 116.82)"
+        ]
+      },
+      "disabled-foreground": {
+        "role": "neutral",
+        "displayName": "Disabled Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0235 168.49)",
+          "oklch(0.2643 0.0235 168.49)",
+          "oklch(0.3786 0.0235 168.49)",
+          "oklch(0.4929 0.0235 168.49)",
+          "oklch(0.6071 0.0235 168.49)",
+          "oklch(0.7214 0.0235 168.49)",
+          "oklch(0.8357 0.0235 168.49)",
+          "oklch(0.9500 0.0235 168.49)"
+        ]
+      },
+      "scrollbar-thumb": {
+        "role": "neutral",
+        "displayName": "Evergreen Scroll Thumb",
+        "tonalRamp": [
+          "oklch(0.1500 0.0319 157.99)",
+          "oklch(0.2643 0.0319 157.99)",
+          "oklch(0.3786 0.0319 157.99)",
+          "oklch(0.4929 0.0319 157.99)",
+          "oklch(0.6071 0.0319 157.99)",
+          "oklch(0.7214 0.0319 157.99)",
+          "oklch(0.8357 0.0319 157.99)",
+          "oklch(0.9500 0.0319 157.99)"
+        ]
+      },
+      "logo-background": {
+        "role": "neutral",
+        "displayName": "Logo Backing",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "brand-green": {
+        "role": "primary",
+        "displayName": "Original Evergreen",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "brand-gold": {
+        "role": "secondary",
+        "displayName": "Original Warm Gold",
+        "tonalRamp": [
+          "oklch(0.1500 0.0995 82.63)",
+          "oklch(0.2643 0.0995 82.63)",
+          "oklch(0.3786 0.0995 82.63)",
+          "oklch(0.4929 0.0995 82.63)",
+          "oklch(0.6071 0.0995 82.63)",
+          "oklch(0.7214 0.0995 82.63)",
+          "oklch(0.8357 0.0995 82.63)",
+          "oklch(0.9500 0.0995 82.63)"
+        ]
+      },
+      "media-background": {
+        "role": "neutral",
+        "displayName": "Media Evergreen",
+        "tonalRamp": [
+          "oklch(0.1500 0.0464 179.69)",
+          "oklch(0.2643 0.0464 179.69)",
+          "oklch(0.3786 0.0464 179.69)",
+          "oklch(0.4929 0.0464 179.69)",
+          "oklch(0.6071 0.0464 179.69)",
+          "oklch(0.7214 0.0464 179.69)",
+          "oklch(0.8357 0.0464 179.69)",
+          "oklch(0.9500 0.0464 179.69)"
+        ]
+      },
+      "media-foreground": {
+        "role": "neutral",
+        "displayName": "Media Warm White",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "media-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Media Supporting Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0151 123.04)",
+          "oklch(0.2643 0.0151 123.04)",
+          "oklch(0.3786 0.0151 123.04)",
+          "oklch(0.4929 0.0151 123.04)",
+          "oklch(0.6071 0.0151 123.04)",
+          "oklch(0.7214 0.0151 123.04)",
+          "oklch(0.8357 0.0151 123.04)",
+          "oklch(0.9500 0.0151 123.04)"
+        ]
+      },
+      "media-caption-foreground": {
+        "role": "neutral",
+        "displayName": "Media Caption Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0130 130.78)",
+          "oklch(0.2643 0.0130 130.78)",
+          "oklch(0.3786 0.0130 130.78)",
+          "oklch(0.4929 0.0130 130.78)",
+          "oklch(0.6071 0.0130 130.78)",
+          "oklch(0.7214 0.0130 130.78)",
+          "oklch(0.8357 0.0130 130.78)",
+          "oklch(0.9500 0.0130 130.78)"
+        ]
+      },
+      "media-secondary-foreground": {
+        "role": "neutral",
+        "displayName": "Media Secondary Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0170 145.44)",
+          "oklch(0.2643 0.0170 145.44)",
+          "oklch(0.3786 0.0170 145.44)",
+          "oklch(0.4929 0.0170 145.44)",
+          "oklch(0.6071 0.0170 145.44)",
+          "oklch(0.7214 0.0170 145.44)",
+          "oklch(0.8357 0.0170 145.44)",
+          "oklch(0.9500 0.0170 145.44)"
+        ]
+      },
+      "media-border": {
+        "role": "neutral",
+        "displayName": "Media Control Stroke",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10 / 0.7020)",
+          "oklch(0.2643 0.0054 95.10 / 0.7020)",
+          "oklch(0.3786 0.0054 95.10 / 0.7020)",
+          "oklch(0.4929 0.0054 95.10 / 0.7020)",
+          "oklch(0.6071 0.0054 95.10 / 0.7020)",
+          "oklch(0.7214 0.0054 95.10 / 0.7020)",
+          "oklch(0.8357 0.0054 95.10 / 0.7020)",
+          "oklch(0.9500 0.0054 95.10 / 0.7020)"
+        ]
+      },
+      "media-control-background": {
+        "role": "neutral",
+        "displayName": "Media Control Backing",
+        "tonalRamp": [
+          "oklch(0.1500 0.0291 183.05 / 0.4392)",
+          "oklch(0.2643 0.0291 183.05 / 0.4392)",
+          "oklch(0.3786 0.0291 183.05 / 0.4392)",
+          "oklch(0.4929 0.0291 183.05 / 0.4392)",
+          "oklch(0.6071 0.0291 183.05 / 0.4392)",
+          "oklch(0.7214 0.0291 183.05 / 0.4392)",
+          "oklch(0.8357 0.0291 183.05 / 0.4392)",
+          "oklch(0.9500 0.0291 183.05 / 0.4392)"
+        ]
+      },
+      "media-button-background": {
+        "role": "neutral",
+        "displayName": "Media Action White",
+        "tonalRamp": [
+          "oklch(0.1500 0.0054 95.10)",
+          "oklch(0.2643 0.0054 95.10)",
+          "oklch(0.3786 0.0054 95.10)",
+          "oklch(0.4929 0.0054 95.10)",
+          "oklch(0.6071 0.0054 95.10)",
+          "oklch(0.7214 0.0054 95.10)",
+          "oklch(0.8357 0.0054 95.10)",
+          "oklch(0.9500 0.0054 95.10)"
+        ]
+      },
+      "media-button-foreground": {
+        "role": "neutral",
+        "displayName": "Media Action Evergreen",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "media-button-hover": {
+        "role": "secondary",
+        "displayName": "Media Pale Gold",
+        "tonalRamp": [
+          "oklch(0.1500 0.0669 87.12)",
+          "oklch(0.2643 0.0669 87.12)",
+          "oklch(0.3786 0.0669 87.12)",
+          "oklch(0.4929 0.0669 87.12)",
+          "oklch(0.6071 0.0669 87.12)",
+          "oklch(0.7214 0.0669 87.12)",
+          "oklch(0.8357 0.0669 87.12)",
+          "oklch(0.9500 0.0669 87.12)"
+        ]
+      },
+      "selection-background": {
+        "role": "secondary",
+        "displayName": "Pale Gold Selection",
+        "tonalRamp": [
+          "oklch(0.1500 0.0669 87.12)",
+          "oklch(0.2643 0.0669 87.12)",
+          "oklch(0.3786 0.0669 87.12)",
+          "oklch(0.4929 0.0669 87.12)",
+          "oklch(0.6071 0.0669 87.12)",
+          "oklch(0.7214 0.0669 87.12)",
+          "oklch(0.8357 0.0669 87.12)",
+          "oklch(0.9500 0.0669 87.12)"
+        ]
+      },
+      "selection-foreground": {
+        "role": "neutral",
+        "displayName": "Evergreen Selection",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "dark-background": {
+        "role": "neutral",
+        "displayName": "Deep Evergreen",
+        "tonalRamp": [
+          "oklch(0.1500 0.0335 185.82)",
+          "oklch(0.2643 0.0335 185.82)",
+          "oklch(0.3786 0.0335 185.82)",
+          "oklch(0.4929 0.0335 185.82)",
+          "oklch(0.6071 0.0335 185.82)",
+          "oklch(0.7214 0.0335 185.82)",
+          "oklch(0.8357 0.0335 185.82)",
+          "oklch(0.9500 0.0335 185.82)"
+        ]
+      },
+      "dark-foreground": {
+        "role": "neutral",
+        "displayName": "Pale Paper Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0095 119.58)",
+          "oklch(0.2643 0.0095 119.58)",
+          "oklch(0.3786 0.0095 119.58)",
+          "oklch(0.4929 0.0095 119.58)",
+          "oklch(0.6071 0.0095 119.58)",
+          "oklch(0.7214 0.0095 119.58)",
+          "oklch(0.8357 0.0095 119.58)",
+          "oklch(0.9500 0.0095 119.58)"
+        ]
+      },
+      "dark-surface-elevated": {
+        "role": "neutral",
+        "displayName": "Elevated Evergreen",
+        "tonalRamp": [
+          "oklch(0.1500 0.0414 180.85)",
+          "oklch(0.2643 0.0414 180.85)",
+          "oklch(0.3786 0.0414 180.85)",
+          "oklch(0.4929 0.0414 180.85)",
+          "oklch(0.6071 0.0414 180.85)",
+          "oklch(0.7214 0.0414 180.85)",
+          "oklch(0.8357 0.0414 180.85)",
+          "oklch(0.9500 0.0414 180.85)"
+        ]
+      },
+      "dark-surface-subtle": {
+        "role": "neutral",
+        "displayName": "Deep Sage Surface",
+        "tonalRamp": [
+          "oklch(0.1500 0.0408 182.87)",
+          "oklch(0.2643 0.0408 182.87)",
+          "oklch(0.3786 0.0408 182.87)",
+          "oklch(0.4929 0.0408 182.87)",
+          "oklch(0.6071 0.0408 182.87)",
+          "oklch(0.7214 0.0408 182.87)",
+          "oklch(0.8357 0.0408 182.87)",
+          "oklch(0.9500 0.0408 182.87)"
+        ]
+      },
+      "dark-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Soft Sage Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0222 162.95)",
+          "oklch(0.2643 0.0222 162.95)",
+          "oklch(0.3786 0.0222 162.95)",
+          "oklch(0.4929 0.0222 162.95)",
+          "oklch(0.6071 0.0222 162.95)",
+          "oklch(0.7214 0.0222 162.95)",
+          "oklch(0.8357 0.0222 162.95)",
+          "oklch(0.9500 0.0222 162.95)"
+        ]
+      },
+      "dark-border": {
+        "role": "neutral",
+        "displayName": "Deep Sage Rule",
+        "tonalRamp": [
+          "oklch(0.1500 0.0360 171.75)",
+          "oklch(0.2643 0.0360 171.75)",
+          "oklch(0.3786 0.0360 171.75)",
+          "oklch(0.4929 0.0360 171.75)",
+          "oklch(0.6071 0.0360 171.75)",
+          "oklch(0.7214 0.0360 171.75)",
+          "oklch(0.8357 0.0360 171.75)",
+          "oklch(0.9500 0.0360 171.75)"
+        ]
+      },
+      "dark-border-strong": {
+        "role": "neutral",
+        "displayName": "Sage Control Stroke",
+        "tonalRamp": [
+          "oklch(0.1500 0.0396 165.13)",
+          "oklch(0.2643 0.0396 165.13)",
+          "oklch(0.3786 0.0396 165.13)",
+          "oklch(0.4929 0.0396 165.13)",
+          "oklch(0.6071 0.0396 165.13)",
+          "oklch(0.7214 0.0396 165.13)",
+          "oklch(0.8357 0.0396 165.13)",
+          "oklch(0.9500 0.0396 165.13)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Pale Sage Action",
+        "tonalRamp": [
+          "oklch(0.1500 0.0358 137.48)",
+          "oklch(0.2643 0.0358 137.48)",
+          "oklch(0.3786 0.0358 137.48)",
+          "oklch(0.4929 0.0358 137.48)",
+          "oklch(0.6071 0.0358 137.48)",
+          "oklch(0.7214 0.0358 137.48)",
+          "oklch(0.8357 0.0358 137.48)",
+          "oklch(0.9500 0.0358 137.48)"
+        ]
+      },
+      "dark-primary-foreground": {
+        "role": "primary",
+        "displayName": "Evergreen Action Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "dark-primary-hover": {
+        "role": "primary",
+        "displayName": "Pale Sage Hover",
+        "tonalRamp": [
+          "oklch(0.1500 0.0205 131.46)",
+          "oklch(0.2643 0.0205 131.46)",
+          "oklch(0.3786 0.0205 131.46)",
+          "oklch(0.4929 0.0205 131.46)",
+          "oklch(0.6071 0.0205 131.46)",
+          "oklch(0.7214 0.0205 131.46)",
+          "oklch(0.8357 0.0205 131.46)",
+          "oklch(0.9500 0.0205 131.46)"
+        ]
+      },
+      "dark-accent-foreground": {
+        "role": "secondary",
+        "displayName": "Pale Gold Utility Ink",
+        "tonalRamp": [
+          "oklch(0.1500 0.0822 85.32)",
+          "oklch(0.2643 0.0822 85.32)",
+          "oklch(0.3786 0.0822 85.32)",
+          "oklch(0.4929 0.0822 85.32)",
+          "oklch(0.6071 0.0822 85.32)",
+          "oklch(0.7214 0.0822 85.32)",
+          "oklch(0.8357 0.0822 85.32)",
+          "oklch(0.9500 0.0822 85.32)"
+        ]
+      },
+      "dark-link-hover": {
+        "role": "secondary",
+        "displayName": "Pale Gold Link Accent",
+        "tonalRamp": [
+          "oklch(0.1500 0.0822 85.32)",
+          "oklch(0.2643 0.0822 85.32)",
+          "oklch(0.3786 0.0822 85.32)",
+          "oklch(0.4929 0.0822 85.32)",
+          "oklch(0.6071 0.0822 85.32)",
+          "oklch(0.7214 0.0822 85.32)",
+          "oklch(0.8357 0.0822 85.32)",
+          "oklch(0.9500 0.0822 85.32)"
+        ]
+      },
+      "dark-danger": {
+        "role": "tertiary",
+        "displayName": "Warm Validation Red",
+        "tonalRamp": [
+          "oklch(0.1500 0.0996 21.70)",
+          "oklch(0.2643 0.0996 21.70)",
+          "oklch(0.3786 0.0996 21.70)",
+          "oklch(0.4929 0.0996 21.70)",
+          "oklch(0.6071 0.0996 21.70)",
+          "oklch(0.7214 0.0996 21.70)",
+          "oklch(0.8357 0.0996 21.70)",
+          "oklch(0.9500 0.0996 21.70)"
+        ]
+      },
+      "dark-focus-ring": {
+        "role": "primary",
+        "displayName": "Pale Sage Focus",
+        "tonalRamp": [
+          "oklch(0.1500 0.0358 137.48)",
+          "oklch(0.2643 0.0358 137.48)",
+          "oklch(0.3786 0.0358 137.48)",
+          "oklch(0.4929 0.0358 137.48)",
+          "oklch(0.6071 0.0358 137.48)",
+          "oklch(0.7214 0.0358 137.48)",
+          "oklch(0.8357 0.0358 137.48)",
+          "oklch(0.9500 0.0358 137.48)"
+        ]
+      },
+      "dark-focus-contrast": {
+        "role": "neutral",
+        "displayName": "Evergreen Focus Contrast",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "dark-header-background": {
+        "role": "neutral",
+        "displayName": "Deep Evergreen Header",
+        "tonalRamp": [
+          "oklch(0.1500 0.0335 185.82)",
+          "oklch(0.2643 0.0335 185.82)",
+          "oklch(0.3786 0.0335 185.82)",
+          "oklch(0.4929 0.0335 185.82)",
+          "oklch(0.6071 0.0335 185.82)",
+          "oklch(0.7214 0.0335 185.82)",
+          "oklch(0.8357 0.0335 185.82)",
+          "oklch(0.9500 0.0335 185.82)"
+        ]
+      },
+      "dark-footer-background": {
+        "role": "neutral",
+        "displayName": "Deep Evergreen Footer",
+        "tonalRamp": [
+          "oklch(0.1500 0.0335 185.82)",
+          "oklch(0.2643 0.0335 185.82)",
+          "oklch(0.3786 0.0335 185.82)",
+          "oklch(0.4929 0.0335 185.82)",
+          "oklch(0.6071 0.0335 185.82)",
+          "oklch(0.7214 0.0335 185.82)",
+          "oklch(0.8357 0.0335 185.82)",
+          "oklch(0.9500 0.0335 185.82)"
+        ]
+      },
+      "dark-input-background": {
+        "role": "neutral",
+        "displayName": "Deep Sage Field",
+        "tonalRamp": [
+          "oklch(0.1500 0.0408 182.87)",
+          "oklch(0.2643 0.0408 182.87)",
+          "oklch(0.3786 0.0408 182.87)",
+          "oklch(0.4929 0.0408 182.87)",
+          "oklch(0.6071 0.0408 182.87)",
+          "oklch(0.7214 0.0408 182.87)",
+          "oklch(0.8357 0.0408 182.87)",
+          "oklch(0.9500 0.0408 182.87)"
+        ]
+      },
+      "dark-disabled-background": {
+        "role": "neutral",
+        "displayName": "Disabled Evergreen Surface",
+        "tonalRamp": [
+          "oklch(0.1500 0.0404 173.50)",
+          "oklch(0.2643 0.0404 173.50)",
+          "oklch(0.3786 0.0404 173.50)",
+          "oklch(0.4929 0.0404 173.50)",
+          "oklch(0.6071 0.0404 173.50)",
+          "oklch(0.7214 0.0404 173.50)",
+          "oklch(0.8357 0.0404 173.50)",
+          "oklch(0.9500 0.0404 173.50)"
+        ]
+      },
+      "dark-disabled-foreground": {
+        "role": "neutral",
+        "displayName": "Disabled Sage Text",
+        "tonalRamp": [
+          "oklch(0.1500 0.0222 162.95)",
+          "oklch(0.2643 0.0222 162.95)",
+          "oklch(0.3786 0.0222 162.95)",
+          "oklch(0.4929 0.0222 162.95)",
+          "oklch(0.6071 0.0222 162.95)",
+          "oklch(0.7214 0.0222 162.95)",
+          "oklch(0.8357 0.0222 162.95)",
+          "oklch(0.9500 0.0222 162.95)"
+        ]
+      },
+      "dark-scrollbar-thumb": {
+        "role": "neutral",
+        "displayName": "Sage Scroll Thumb",
+        "tonalRamp": [
+          "oklch(0.1500 0.0396 165.13)",
+          "oklch(0.2643 0.0396 165.13)",
+          "oklch(0.3786 0.0396 165.13)",
+          "oklch(0.4929 0.0396 165.13)",
+          "oklch(0.6071 0.0396 165.13)",
+          "oklch(0.7214 0.0396 165.13)",
+          "oklch(0.8357 0.0396 165.13)",
+          "oklch(0.9500 0.0396 165.13)"
+        ]
+      },
+      "dark-logo-background": {
+        "role": "neutral",
+        "displayName": "Light Logo Backing",
+        "tonalRamp": [
+          "oklch(0.1500 0.0041 121.56)",
+          "oklch(0.2643 0.0041 121.56)",
+          "oklch(0.3786 0.0041 121.56)",
+          "oklch(0.4929 0.0041 121.56)",
+          "oklch(0.6071 0.0041 121.56)",
+          "oklch(0.7214 0.0041 121.56)",
+          "oklch(0.8357 0.0041 121.56)",
+          "oklch(0.9500 0.0041 121.56)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page titles and large photographic headlines."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Major section introductions."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service entries and smaller content groups."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Regular copy, editorial paragraphs and legal prose."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact actions; navigation and field labels use observed weight variations."
+      }
+    },
+    "shadows": [
+      {
+        "name": "mobile-action-separation",
+        "value": "0 -4px 20px #0b37341a",
+        "purpose": "Separates the fixed mobile inquiry action from scrolling content."
+      },
+      {
+        "name": "keyboard-focus-contrast",
+        "value": "0 0 0 3px var(--focus-contrast)",
+        "purpose": "Provides contrasting support around the semantic focus outline, without adding content elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "200ms",
+        "purpose": "Button surface and translation; circular control surface; navigation and testimonial transitions."
+      },
+      {
+        "name": "field-state",
+        "value": "150ms",
+        "purpose": "Inquiry field border and shadow transitions."
+      },
+      {
+        "name": "destination-rail-image",
+        "value": "700ms",
+        "purpose": "Destination rail photograph hover scaling."
+      },
+      {
+        "name": "editorial-image",
+        "value": "500ms",
+        "purpose": "Interior destination photograph hover scaling."
+      },
+      {
+        "name": "editorial-image-easing",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Easing for interior destination image scaling."
+      },
+      {
+        "name": "selected-destination-spring",
+        "value": "{\"type\":\"spring\",\"stiffness\":150,\"damping\":25}",
+        "purpose": "Selected destination scale and opacity emphasis; reduced motion keeps full scale."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-hero-min",
+        "value": "1600px"
+      },
+      {
+        "name": "desktop-gutter-max",
+        "value": "1100px"
+      },
+      {
+        "name": "header-compact-max",
+        "value": "980px"
+      },
+      {
+        "name": "header-compact-min",
+        "value": "801px"
+      },
+      {
+        "name": "inquiry-layout-max",
+        "value": "900px"
+      },
+      {
+        "name": "editorial-story-max",
+        "value": "850px"
+      },
+      {
+        "name": "mobile-navigation-max",
+        "value": "800px"
+      },
+      {
+        "name": "contact-layout-max",
+        "value": "767px"
+      },
+      {
+        "name": "editorial-stack-max",
+        "value": "650px"
+      },
+      {
+        "name": "paired-field-max",
+        "value": "480px"
+      },
+      {
+        "name": "compact-phone-max",
+        "value": "430px"
+      },
+      {
+        "name": "small-phone-max",
+        "value": "350px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Semantic inquiry action with paired text colors that follow Light, Dark or System.",
+      "html": "<button type=\"button\" class=\"ds-button-primary\">Plan your trip <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid transparent;border-radius:4px;background:var(--primary);color:var(--primary-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:600;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-primary:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--primary-hover);color:var(--primary-foreground)}.ds-button-primary:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-primary:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-primary:disabled,.ds-button-primary[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-primary[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}.ds-button-primary:hover{transform:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined supporting action that keeps the page surface visible.",
+      "html": "<button type=\"button\" class=\"ds-button-secondary\">Copy inquiry <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid var(--border-strong);border-radius:4px;background:transparent;color:var(--secondary-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:600;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-secondary:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--secondary);color:var(--secondary-foreground)}.ds-button-secondary:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-secondary:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-secondary:disabled,.ds-button-secondary[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-secondary[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}.ds-button-secondary:hover{transform:none}}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Theme-independent warm white action for photographic backgrounds, with fixed evergreen text.",
+      "html": "<button type=\"button\" class=\"ds-button-light\">Start planning <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button-light{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid transparent;border-radius:4px;background:var(--media-button-background);color:var(--media-button-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:600;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-light:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--media-button-hover);color:var(--media-button-foreground)}.ds-button-light:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-light:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-light:disabled,.ds-button-light[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-light[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-light{transition:none}.ds-button-light:hover{transform:none}}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Underlined editorial link with a separated underline and compact directional arrow.",
+      "html": "<a href=\"#destinations\" class=\"ds-text-link\">Explore all destinations <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;color:var(--foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:650;line-height:1.65;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}.ds-text-link:hover{color:var(--link-hover)}.ds-text-link:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}"
+    },
+    {
+      "name": "Circular Carousel Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "Thin circular outline used for destination and testimonial carousel navigation.",
+      "html": "<button type=\"button\" class=\"ds-icon-button\" aria-label=\"Next destination\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button>",
+      "css": ".ds-icon-button{width:48px;height:48px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border:1px solid var(--border-strong);color:var(--foreground);border-radius:50%;transition:background .2s;cursor:pointer}.ds-icon-button:hover:not(:disabled){background:var(--surface-subtle)}.ds-icon-button:active:not(:disabled){background:var(--surface-subtle)}.ds-icon-button:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-icon-button:disabled,.ds-icon-button[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}"
+    },
+    {
+      "name": "Inquiry Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Externally labeled destination field with live surface, text, focus and validation colors.",
+      "html": "<div class=\"ds-inquiry-field\"><label class=\"ds-field-label\" for=\"ds-destination\">Destination <span class=\"ds-field-optional\">optional</span></label><input class=\"ds-field-input\" id=\"ds-destination\" type=\"text\" placeholder=\"e.g. Japan\" aria-describedby=\"ds-destination-help\"><p class=\"ds-field-help\" id=\"ds-destination-help\">Share a destination you have in mind.</p></div>",
+      "css": ".ds-inquiry-field{min-width:0;font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-field-label{display:block;color:var(--foreground);font-size:.95rem;font-weight:650;margin-bottom:.6rem}.ds-field-optional{margin-left:.35rem;font-weight:400;font-size:.8rem;color:var(--muted-foreground)}.ds-field-input{display:block;width:100%;min-height:50px;padding:.85rem 1rem;border:1px solid var(--border-strong);border-radius:5px;color:var(--foreground);background:var(--input-background);font:inherit;font-size:1rem;caret-color:var(--primary);transition:border-color .15s,box-shadow .15s}.ds-field-input::placeholder{color:var(--muted-foreground);opacity:1}.ds-field-input:hover:not(:disabled){border-color:var(--primary)}.ds-field-input:focus-visible{border-color:var(--primary);outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-field-input[aria-invalid=\"true\"]{border-color:var(--danger)}.ds-field-input:disabled{opacity:1;color:var(--disabled-foreground);background:var(--disabled-background);border-color:var(--border-strong);cursor:not-allowed}.ds-field-help{margin:.55rem 0 0;color:var(--muted-foreground);font-size:.84rem;line-height:1.65}.ds-field-error{margin:.55rem 0 0;color:var(--danger);font-size:.84rem;line-height:1.6}@media(prefers-reduced-motion:reduce){.ds-field-input{transition:none}}.ds-field-input[aria-invalid=\"true\"],.ds-field-input[aria-invalid=\"true\"]:hover{border-color:var(--danger)}.ds-field-input:-webkit-autofill{-webkit-text-fill-color:var(--foreground);caret-color:var(--primary);-webkit-box-shadow:0 0 0 1000px var(--input-background) inset}.ds-field-input:-webkit-autofill:focus-visible{-webkit-box-shadow:0 0 0 1000px var(--input-background) inset,0 0 0 3px var(--focus-contrast)}"
+    },
+    {
+      "name": "Inquiry Message",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Resizable message area using the inquiry field treatment with a 210px minimum height.",
+      "html": "<div class=\"ds-inquiry-message\"><label class=\"ds-message-label\" for=\"ds-message\">Your inquiry message</label><textarea class=\"ds-message-textarea\" id=\"ds-message\" rows=\"6\">Hi Prosperity! I would like help planning a trip.</textarea></div>",
+      "css": ".ds-inquiry-message{font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-message-label{display:block;color:var(--foreground);font-size:.95rem;font-weight:650;margin-bottom:.6rem}.ds-message-textarea{display:block;width:100%;padding:.85rem 1rem;border:1px solid var(--border-strong);border-radius:5px;color:var(--foreground);background:var(--input-background);font:inherit;font-size:1rem;caret-color:var(--primary);transition:border-color .15s,box-shadow .15s;resize:vertical;line-height:1.7;min-height:210px}.ds-message-textarea:hover:not(:disabled){border-color:var(--primary)}.ds-message-textarea:focus-visible{border-color:var(--primary);outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-message-textarea:disabled{opacity:1;color:var(--disabled-foreground);background:var(--disabled-background);border-color:var(--border-strong);cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-message-textarea{transition:none}}.ds-message-textarea[aria-invalid=\"true\"],.ds-message-textarea[aria-invalid=\"true\"]:hover{border-color:var(--danger)}.ds-message-textarea:-webkit-autofill{-webkit-text-fill-color:var(--foreground);caret-color:var(--primary);-webkit-box-shadow:0 0 0 1000px var(--input-background) inset}.ds-message-textarea:-webkit-autofill:focus-visible{-webkit-box-shadow:0 0 0 1000px var(--input-background) inset,0 0 0 3px var(--focus-contrast)}"
+    },
+    {
+      "name": "Navigation Links",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Sentence-case navigation with a heavier current-page label and a thin evergreen underline.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Main navigation\"><a class=\"ds-navigation-link\" href=\"#home\" aria-current=\"page\">Home</a><a class=\"ds-navigation-link\" href=\"#destinations\">Destinations</a><a class=\"ds-navigation-link\" href=\"#services\">Services</a></nav>",
+      "css": ".ds-navigation{display:flex;gap:30px;align-items:center;min-height:80px;background:var(--header-background);color:var(--foreground);font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-navigation-link{font-size:.85rem;min-height:44px;display:flex;align-items:center;border-bottom:1px solid transparent;color:inherit;text-decoration:none}.ds-navigation-link[aria-current]{border-bottom-color:var(--primary);font-weight:700}.ds-navigation-link:hover{text-decoration-color:currentColor;color:var(--link-hover)}.ds-navigation-link:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}@media(max-width:1100px){.ds-navigation{gap:18px}}@media(max-width:800px){.ds-navigation{display:block;padding:24px 28px}.ds-navigation-link{justify-content:space-between;padding-block:15px;font-size:1.7rem;border-bottom:0}.ds-navigation-link[aria-current]{text-decoration:underline;text-underline-offset:8px}}@media(min-width:801px) and (max-width:980px){.ds-navigation{gap:12px}.ds-navigation-link{font-size:.78rem}}"
+    },
+    {
+      "name": "Destination Card",
+      "kind": "card",
+      "refersTo": "destination-card",
+      "description": "Tall photograph frame with a readable bottom caption and circular arrow. This asset-free preview labels the media placeholder; production uses project photography.",
+      "html": "<article class=\"ds-destination-card\"><a class=\"ds-destination-photo\" href=\"#turkey\"><svg class=\"ds-destination-media\" viewBox=\"0 0 345 430\" preserveAspectRatio=\"xMidYMid slice\" role=\"img\" aria-label=\"Destination photograph placeholder\"><rect width=\"345\" height=\"430\" fill=\"var(--surface-subtle)\"/><text x=\"172.5\" y=\"175\" text-anchor=\"middle\" fill=\"var(--muted-foreground)\" font-family=\"sans-serif\" font-size=\"14\">Destination photograph</text></svg><div class=\"ds-destination-caption\"><h3 class=\"ds-destination-title\">Türkiye</h3><span class=\"ds-destination-arrow\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></span></div></a><p class=\"ds-destination-copy\">Europe &amp; Asia<span class=\"ds-destination-phrase\">Let your imagination take flight.</span></p></article>",
+      "css": ".ds-destination-card{width:345px;max-width:100%;transform-origin:50% 70%;font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-destination-photo{position:relative;height:430px;display:block;overflow:hidden;border-radius:3px;background:var(--surface-subtle);text-decoration:none}.ds-destination-media{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s}.ds-destination-photo:hover .ds-destination-media{transform:scale(1.045)}.ds-destination-photo:after{content:\"\";position:absolute;inset:0;background:var(--destination-overlay)}.ds-destination-caption{position:absolute;left:26px;right:22px;bottom:22px;display:flex;align-items:center;justify-content:space-between;z-index:1;color:var(--media-foreground)}.ds-destination-title{margin:0;font-size:2rem;font-weight:500;line-height:1.4;letter-spacing:-.02em}.ds-destination-arrow{border:1px solid var(--media-border);background:var(--media-control-background);width:44px;height:44px;display:grid;place-items:center;border-radius:50%}.ds-destination-copy{font-size:.8rem;margin:18px 0 0;color:var(--muted-foreground)}.ds-destination-phrase{display:block;font-size:.9rem;color:var(--foreground);margin-top:4px}.ds-destination-photo:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}@media(max-width:1100px){.ds-destination-card{width:310px}}@media(max-width:800px){.ds-destination-card{width:78vw;max-width:330px}.ds-destination-photo{height:395px}}@media(max-width:350px){.ds-destination-card{width:83vw}.ds-destination-photo{height:340px}}@media(prefers-reduced-motion:reduce){.ds-destination-media{transition:none}.ds-destination-photo:hover .ds-destination-media{transform:none}}"
+    },
+    {
+      "name": "Appearance",
+      "kind": "button",
+      "refersTo": "appearance-toggle",
+      "description": "Two state examples of the single sun/moon appearance button. Production shows the current resolved icon and persists the opposite explicit appearance when activated; the preview demonstrates its control states without a provider runtime.",
+      "html": "<button type=\"button\" class=\"ds-theme-toggle\" aria-label=\"Switch to dark theme (currently light)\" title=\"Appearance: System (light). Switch to dark.\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"/><path d=\"M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7\"/></svg></button> <button type=\"button\" class=\"ds-theme-toggle\" aria-label=\"Switch to light theme (currently dark)\" title=\"Appearance: dark. Switch to light.\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454l0 .008\"/></svg></button>",
+      "css": ".ds-theme-toggle{width:48px;height:48px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border:1px solid transparent;color:var(--foreground);border-radius:50%;transition:background .2s;cursor:pointer}.ds-theme-toggle:hover:not(:disabled){color:var(--primary);background:var(--surface-subtle)}.ds-theme-toggle:active:not(:disabled){background:var(--surface-subtle)}.ds-theme-toggle:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-theme-toggle:disabled{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-theme-toggle:disabled svg{visibility:hidden}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Evergreen Travel Journal",
+    "overview": "Expansive photographs and clear, finely set Manrope typography create the atmosphere of a considered travel journal. Evergreen anchors the controls and the original oval identity; warm gold supplies a restrained note of warmth. The warm ivory canvas stays quiet so landscapes, travelers and the agency's people retain their natural character.\n\nThe system feels professional and welcoming through generous space, confident headings and direct controls. Editorial image-and-copy compositions coexist with practical forms and compact navigation. Depth comes from photography, tonal surfaces and slight movement rather than a vocabulary of floating panels. The same visual voice extends to destination stories, services, contact details and inquiry planning.",
+    "keyCharacteristics": [
+      "Natural photography at generous scale, with purposeful crops and readable captions.",
+      "Manrope throughout, with medium-weight display type and compact navigation.",
+      "Evergreen actions, warm ivory surfaces and restrained warm gold accents.",
+      "Quiet dividing rules, near-square photographs and gently curved controls.",
+      "Direct manipulation and visible controls with a reduced-motion alternative."
+    ],
+    "rules": [
+      {
+        "name": "The Role Continuity Rule",
+        "body": "Preserve the assignment of action, text, muted text, surface and rule colors when adapting the appearance. Verify interactive and form states in Light, Dark and System.",
+        "section": "colors"
+      },
+      {
+        "name": "The Media Contrast Rule",
+        "body": "Keep photograph overlays, captions and light media buttons on their dedicated media tokens so they remain readable in Light, Dark and System.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Carry Manrope across display, navigation, body and controls. Express hierarchy through scale, spacing and weight before introducing another face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Shared Edge Rule",
+        "body": "Align text, controls and editorial image compositions to the shared container. Let intentional media rails extend beyond it while preserving ordinary vertical scrolling.",
+        "section": "layout"
+      },
+      {
+        "name": "The Photograph Depth Rule",
+        "body": "Use photographs and tonal surface changes to create atmosphere. Keep text surfaces and controls visually disciplined; reserve shadows for an established separation need.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep Manrope, evergreen actions and the original oval identity consistent across new surfaces.",
+      "**Do** use natural photographs with deliberate cover crops, readable captions and calm surrounding space.",
+      "**Do** align new editorial content to the shared container and adapt its proportions for mobile.",
+      "**Do** preserve visible keyboard focus, minimum touch height and a reduced-motion alternative.",
+      "**Do** verify text, fields and interactive states in Light and Dark, plus default System behavior, stored explicit choices and device preference changes."
+    ],
+    "donts": [
+      "**Don't** turn the restrained gold accent into a large decorative background.",
+      "**Don't** replace quiet editorial compositions with repeated floating panels or heavy card shadows.",
+      "**Don't** apply photographic readability gradients to ordinary text surfaces.",
+      "**Don't** hide carousel operation behind dragging alone or block normal vertical scrolling.",
+      "**Don't** rely on color alone to communicate a field error, selected page or disabled action.",
+      "**Don't** let page-appearance overrides recolor photograph captions, original brand colors or fixed media actions."
+    ]
+  }
+}

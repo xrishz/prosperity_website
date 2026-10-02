@@ -1,0 +1,333 @@
+{
+  "verifiedOn": "2026-10-02",
+  "license": {
+    "name": "Unsplash License",
+    "url": "https://unsplash.com/license",
+    "evidence": "Official license permits free download and use for commercial and non-commercial purposes without permission. Attribution is appreciated. Images cannot be sold without significant modification or compiled to replicate a similar or competing service. Each photo page explicitly labels the selected photo free to use under the Unsplash License.",
+    "attributionRequired": false,
+    "attributionRecommended": true
+  },
+  "usage": "Destination inspiration only. These photographs must never be presented as Prosperity customer photos, completed Prosperity trips, staff, office locations, or endorsements. All files are real photographs downloaded from verified official Unsplash photo pages and visually inspected.",
+  "heroRecommendation": "cappadocia-alternate.jpg is a wide 1920 px panorama suitable for the hero. japan-fuji.jpg is also landscape at 1920 px wide. Keep the portrait originals for destination cards or editorial sections.",
+  "photos": [
+    {
+      "filename": "japan-fuji.jpg",
+      "destination": "Japan",
+      "alt": "Snow-capped Mount Fuji beyond a lake, framed by pink cherry blossoms",
+      "sourcePage": "https://unsplash.com/photos/mt-fuji-is-framed-by-cherry-blossoms-in-the-foreground-DEXxCRUZtDo",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1743586994827-d0806a9e6d39",
+      "downloadUrl": "https://images.unsplash.com/photo-1743586994827-d0806a9e6d39?auto=format&fit=crop&fm=jpg&q=80&w=1920",
+      "author": "Nicolas Jehly",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "bytes": 404144,
+      "orientation": "landscape",
+      "role": "destination or alternate hero",
+      "visuallyVerified": true,
+      "width": 1920,
+      "height": 1200,
+      "servedFile": "public/images/japan-fuji.webp",
+      "transformation": "Resized without enlargement; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1920,
+        "height": 1200
+      }
+    },
+    {
+      "filename": "korea-palace.jpg",
+      "destination": "South Korea / Seoul",
+      "alt": "The traditional tiled gate of Gyeongbokgung Palace beneath a clear pale blue sky",
+      "sourcePage": "https://unsplash.com/photos/architectural-photography-of-korea-gyeongbokgung-Mz4NBECA2DQ",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1551450364-c17e39cd3a1e",
+      "downloadUrl": "https://images.unsplash.com/photo-1551450364-c17e39cd3a1e?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+      "author": "Charles Postiaux",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "bytes": 138674,
+      "orientation": "landscape",
+      "role": "destination",
+      "visuallyVerified": true,
+      "width": 1600,
+      "height": 1067,
+      "servedFile": "public/images/korea-palace.webp",
+      "transformation": "Resized without enlargement; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 1067
+      }
+    },
+    {
+      "filename": "turkey-cappadocia.jpg",
+      "destination": "Turkey / Cappadocia",
+      "alt": "Hot air balloons over the rocky valleys of Cappadocia in warm sunlight",
+      "sourcePage": "https://unsplash.com/photos/hot-air-balloons-flying-over-the-mountains-during-sunset-yMDis5vlDyw",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1623513389306-e743af5d1e09",
+      "downloadUrl": "https://images.unsplash.com/photo-1623513389306-e743af5d1e09?auto=format&fit=crop&fm=jpg&q=80&w=1920",
+      "author": "David Köhler",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "bytes": 347721,
+      "orientation": "portrait",
+      "role": "destination or editorial section",
+      "visuallyVerified": true,
+      "width": 1920,
+      "height": 2880,
+      "servedFile": "public/images/turkey-cappadocia.webp",
+      "transformation": "Resized without enlargement; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 2400
+      }
+    },
+    {
+      "filename": "greece-santorini.jpg",
+      "destination": "Greece / Santorini",
+      "alt": "A blue-domed white church overlooking the Aegean Sea in Santorini",
+      "sourcePage": "https://unsplash.com/photos/a-white-and-blue-building-with-a-blue-dome-0zNVuxobOEM",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1678266576774-3c143ae07dc4",
+      "downloadUrl": "https://images.unsplash.com/photo-1678266576774-3c143ae07dc4?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+      "author": "Chloé Lefleur",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "bytes": 600057,
+      "orientation": "portrait",
+      "role": "destination",
+      "visuallyVerified": true,
+      "width": 1600,
+      "height": 2133,
+      "servedFile": "public/images/greece-santorini.webp",
+      "transformation": "Resized without enlargement; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 2133
+      }
+    },
+    {
+      "filename": "dubai-skyline.jpg",
+      "destination": "United Arab Emirates / Dubai",
+      "alt": "Dubai skyline with the Burj Khalifa rising into a clear blue sky",
+      "sourcePage": "https://unsplash.com/photos/city-skyline-under-blue-sky-during-daytime-ZQziuciUkjU",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1604046412106-7f11740643fe",
+      "downloadUrl": "https://images.unsplash.com/photo-1604046412106-7f11740643fe?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+      "author": "Saj Shafique",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "bytes": 118969,
+      "orientation": "landscape",
+      "role": "destination",
+      "visuallyVerified": true,
+      "width": 1600,
+      "height": 980,
+      "servedFile": "public/images/dubai-skyline.webp",
+      "transformation": "Resized without enlargement; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 980
+      }
+    },
+    {
+      "filename": "cappadocia-alternate.jpg",
+      "destination": "Turkey / Cappadocia",
+      "alt": "Colorful hot air balloons floating above the sunlit rocky landscape of Cappadocia",
+      "sourcePage": "https://unsplash.com/photos/hot-air-balloons-in-the-the-sky-qjATQpoeK5Y",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1523618084-5586c1703251",
+      "downloadUrl": "https://images.unsplash.com/photo-1523618084-5586c1703251?auto=format&fit=crop&fm=jpg&q=80&w=1920",
+      "author": "John Cameron",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "bytes": 304393,
+      "orientation": "wide landscape",
+      "role": "recommended hero",
+      "visuallyVerified": true,
+      "width": 1920,
+      "height": 948,
+      "servedFile": "public/images/cappadocia-alternate.webp",
+      "transformation": "Resized without enlargement; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1920,
+        "height": 948
+      }
+    },
+    {
+      "filename": "santorini-alternate.jpg",
+      "destination": "Greece / Santorini",
+      "alt": "Whitewashed buildings stacked along a sunny hillside in Santorini",
+      "sourcePage": "https://unsplash.com/photos/santorini-greece-7igiZKszpGA",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1497262769208-546fd71d72ca",
+      "downloadUrl": "https://images.unsplash.com/photo-1497262769208-546fd71d72ca?auto=format&fit=crop&fm=jpg&q=80&w=1600",
+      "author": "Andre Benz",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "bytes": 524933,
+      "orientation": "portrait",
+      "role": "supporting editorial photo",
+      "visuallyVerified": true,
+      "width": 1600,
+      "height": 2400,
+      "servedFile": "public/images/santorini-alternate.webp",
+      "transformation": "Resized without enlargement; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 2400
+      }
+    }
+  ],
+  "profile": {
+    "usage": "Official logo, office, named team portraits and original traveler photographs supplied in company profile. No permit scans or raw chats published.",
+    "files": [
+      "logo.png",
+      "office.webp",
+      "office-exterior.webp",
+      "traveler-group.webp",
+      "traveler-mountains.webp",
+      "traveler-pagoda.webp",
+      "team-veronica.webp",
+      "team-klarissa.webp",
+      "team-joy.webp",
+      "team-carla.webp"
+    ],
+    "source": "Client-supplied official 20-slide company profile. The original deck and raw private documents are retained outside the public repository.",
+    "derivatives": [
+      {
+        "servedFile": "public/images/logo.png",
+        "slide": 20,
+        "original": "image27.png",
+        "transformation": "Original logo pixels, color and proportions preserved.",
+        "servedDimensions": {
+          "width": 500,
+          "height": 500
+        }
+      },
+      {
+        "servedFile": "public/images/office.webp",
+        "slide": 18,
+        "original": "image16.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "servedFile": "public/images/office-exterior.webp",
+        "slide": 18,
+        "original": "image23.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 360,
+          "height": 480
+        }
+      },
+      {
+        "servedFile": "public/images/traveler-group.webp",
+        "slide": 13,
+        "original": "image7.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 1200,
+          "height": 1600
+        }
+      },
+      {
+        "servedFile": "public/images/traveler-mountains.webp",
+        "slide": 13,
+        "original": "image9.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 960,
+          "height": 720
+        }
+      },
+      {
+        "servedFile": "public/images/traveler-pagoda.webp",
+        "slide": 13,
+        "original": "image19.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 1200,
+          "height": 1600
+        }
+      },
+      {
+        "servedFile": "public/images/team-veronica.webp",
+        "slide": 19,
+        "original": "image34.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 768,
+          "height": 1024
+        }
+      },
+      {
+        "servedFile": "public/images/team-klarissa.webp",
+        "slide": 19,
+        "original": "image30.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 728,
+          "height": 1080
+        }
+      },
+      {
+        "servedFile": "public/images/team-joy.webp",
+        "slide": 19,
+        "original": "image20.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 756,
+          "height": 1040
+        }
+      },
+      {
+        "servedFile": "public/images/team-carla.webp",
+        "slide": 19,
+        "original": "image32.jpg",
+        "transformation": "EXIF orientation applied; resized without enlargement to maximum 1200px; WebP quality 82.",
+        "servedDimensions": {
+          "width": 768,
+          "height": 1024
+        }
+      }
+    ]
+  },
+  "generatedDerivatives": [
+    {
+      "servedFile": "public/icon.png",
+      "original": "Company profile slide 20 image27.png",
+      "transformation": "Proportional 192px PNG resize.",
+      "servedDimensions": {
+        "width": 192,
+        "height": 192
+      }
+    },
+    {
+      "servedFile": "public/images/social.jpg",
+      "original": "https://unsplash.com/photos/hot-air-balloons-in-the-the-sky-qjATQpoeK5Y",
+      "transformation": "1200x630 center crop, JPEG quality 85.",
+      "servedDimensions": {
+        "width": 1200,
+        "height": 630
+      }
+    }
+  ],
+  "testimonialSources": [
+    {
+      "name": "Ms. Anne",
+      "slide": 15,
+      "original": "image31.png",
+      "excerpt": "We booked our China trip last minute, but everything went incredibly well."
+    },
+    {
+      "name": "Rosalie",
+      "slide": 16,
+      "original": "image11.jpg",
+      "excerpt": "Hindi talaga natapos ang service nyo sa pagbili lang Ng package but until to flight back home"
+    },
+    {
+      "name": "Lorie",
+      "slide": 16,
+      "original": "image13.jpg",
+      "excerpt": "Your team was kind, helpful, and always ready to assist us."
+    }
+  ]
+}
