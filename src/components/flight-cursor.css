@@ -1,0 +1,50 @@
+.flight-cursor {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+  contain: strict;
+}
+
+.flight-cursor-ribbon {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.flight-cursor-plane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  transform-origin: 0 0;
+  pointer-events: none;
+  filter: drop-shadow(0 3px 4px rgb(2 34 31 / 28%));
+}
+
+.flight-cursor-plane svg { display: block; overflow: visible; }
+.flight-plane-body { fill: #f7fffb; stroke: #0b4943; stroke-width: 1.65; stroke-linejoin: round; }
+
+@media (min-width: 768px) and (pointer: fine) and (hover: hover) and (prefers-reduced-motion: no-preference) {
+  html[data-flight-cursor] body:has(.travel-experience[data-motion="on"]),
+  html[data-flight-cursor] .travel-experience[data-motion="on"],
+  html[data-flight-cursor] .travel-experience[data-motion="on"] :is(a, button, summary, [role="button"], [tabindex], .destination-viewport, .destination-track) {
+    cursor: none !important;
+  }
+
+  html[data-flight-cursor] .travel-experience[data-motion="on"] :is(input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [data-native-cursor]),
+  html[data-flight-cursor] .travel-experience[data-motion="on"] :is([contenteditable]:not([contenteditable="false"]), [role="textbox"], [data-native-cursor]) * {
+    cursor: auto !important;
+  }
+}
+
+.travel-experience[data-motion="off"] .flight-cursor { display: none; }
+
+@media (max-width: 767px), (pointer: coarse), (hover: none), (prefers-reduced-motion: reduce) {
+  .flight-cursor { display: none; }
+}

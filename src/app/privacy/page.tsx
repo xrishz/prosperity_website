@@ -22,6 +22,9 @@ export default function PrivacyPage() {
           <h2>Your appearance preference</h2>
           <p>The sun or moon control switches between light and dark appearance. On your first visit, the website follows your device’s color preference. An explicit light or dark choice is saved in this browser’s local storage under prosperity-appearance so it can be used on your next visit. This stores the appearance setting only. Clear this website’s browser data to remove the saved preference and follow your device again.</p>
 
+          <h2>Your animation preference</h2>
+          <p>The desktop animation control pauses or plays the decorative travel scenes. Your choice is saved in this browser’s local storage under prosperity-motion. Small screens use still transport scenes, and your device’s reduced-motion setting takes priority. Clear this website’s browser data to remove the saved choice.</p>
+
           <h2>Opening a contact app</h2>
           <p>Opening WhatsApp places your draft in a WhatsApp link. WhatsApp receives the link when you open it; you review and send the message in the app. Messenger and Viber links open their respective services. Copying a draft places its text on your device’s clipboard so you can paste it into a conversation.</p>
           <p>These services operate separately from this website and have their own privacy policies and settings. Information you choose to send through chat, telephone or email is shared through that channel.</p>

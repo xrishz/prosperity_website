@@ -1,4 +1,22 @@
-# Release audit — 2 October 2026
+# Travel Atlas redesign — 2 October 2026
+
+Current candidate: the approved colorful 3D Travel Atlas with cartoon vehicle motion, destination/photo exploration, core values and a consistent trip-inquiry goal. The earlier editorial release's scores below are historical and do not grade this redesign.
+
+The candidate passed production compilation, strict TypeScript and ESLint. Browser checks covered light geometry at 320, 360, 390, 700, 800, 1024, 1440 and 2038px without document overflow or failed images. The two headline spans stayed on their two authored lines. A 700px DPR-2 check used the corrected single-column gallery image hints. Opening animation is finite at two seconds; reduced motion hides it. Country switching hid the photographs during the plane pass, then revealed the selected country and corresponding inquiry link without replacing the plane canvas.
+
+The carousel moved automatically, paused on hover and its local control, remained draggable without accidental navigation, and maintained card separation after a corrected Embla coordinate origin and looping seam gap. Reduced motion kept the scene still and changed the country immediately. Pausing/resuming during the country flight recovered visible photos. Two additional state defects found by the independent technical audit were corrected: interrupted-flight completion and stale convoy play state after carousel cleanup.
+
+The homepage photo filter changed ten photographs to Japan's two and back. The hero's Dubai inquiry action opened the planner with Dubai selected and a correctly encoded visitor-controlled contact draft. No message was sent. All fifteen content/metadata routes returned HTTP 200; robots is intentionally a short plain-text response. All 24 shipping rasters passed the provenance scan with zero missing records. Logo corner alpha is zero; removal of its white backing is a CSS correction.
+
+An automated homepage WCAG-tagged scan returned zero violations, with gradient/photo contrast left incomplete for manual review. This is not a full WCAG certification. Source review confirmed lazy rendering, static mobile/reduced-motion fallbacks, context-loss fallback and resource cleanup. No physical-device FPS, battery use, throttled-network Core Web Vitals or assistive-technology session was measured.
+
+The final cursor keeps its nose at the pointer and joins the ribbon to the displayed tail after eased rotation. Filtered scalar pointer speed grows the trail from 20px during slow movement to 320px during a fast sweep, independently of the heading filter; it shrinks and fades within 450ms after stopping. Normal turns ease in and out over 220ms, extending to approximately 321ms for a full reversal. Numerical checks covered 245 turn cases, micro-jitter behavior, 48 short/long trail attachment checks and slow/moderate/fast/stopping/reversal speed cases. Browser frames show the short and long states, plus the settled dark hero, using repeatable synthesized mouse sweeps.
+
+The independent final review returned **ship**, with no material fixes required at its stated scope. It uses composite evidence: earlier valid full-page desktop and 360px mobile frames cover the unchanged page body; current desktop and 390px mobile frames cover the corrected carousel seams; final slow, fast and dark cursor frames cover the latest cursor and settled desktop heroes. Current seam geometry also confirms separation at 360px. Failed newer full-page captures were excluded; this does not claim a fresh 390px full-page inspection. The one detector snapshot contains zero primary and 87 advisory findings, mostly comparisons with superseded documentation. It predates final documentation and the latest cursor refinement and was not rerun.
+
+DESIGN.md and the schema 2 design sidecar now document the actual Travel Atlas tokens and eight self-contained component previews. The final production build, ESLint, TypeScript and whitespace checks passed. A post-build HTTP check returned 200 for all fifteen content/metadata routes and representative optimized team and new destination images. The production deployment identity and live verification are reported in the delivery handoff.
+
+## Previous editorial release (historical evidence)
 
 Disposition: **ship**. The implementation meets the master brief's numerical release gates in the reviewed scope: Nielsen **37/40** and technical health **18/20**. No unresolved P0, P1 or P2 issue was found in that scope. Two P3 layout observations remain: the view counter wraps at 360px, and the footer email wraps its final letter at 430px. Both controls remain readable and usable.
 

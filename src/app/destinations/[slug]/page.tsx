@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { IconArrowUpRight, IconCheck } from '@tabler/icons-react';
 import { destinations } from '@/lib/content';
+import { atlasGallery } from '@/lib/gallery-content';
 import { pageMeta } from '@/lib/metadata';
 import '@/components/editorial.css';
 
@@ -56,9 +57,11 @@ export default async function DestinationPage({ params }: Props) {
   if (!destination) notFound();
   const story = destinationStories[slug];
   const otherDestinations = destinations.filter((item) => item.slug !== slug).slice(0, 2);
+  const extraPhotos = atlasGallery.filter((photo) => photo.destination === slug && photo.src !== destination.image && photo.src !== story.alternative?.image);
 
   return (
-    <>
+    <div className="destination-page destination-detail-page">
+      <div className="destination-sky">
       <div className="container page-intro editorial-intro destination-intro">
         <nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/destinations">Destinations</Link><span aria-hidden="true">/</span><span aria-current="page">{destination.name}</span></nav>
         <h1>{destination.name}</h1>
@@ -69,6 +72,7 @@ export default async function DestinationPage({ params }: Props) {
         <div className="photo destination-hero-image"><Image src={destination.image} alt={destination.alt} fill sizes="(max-width: 1200px) 100vw, 1200px" preload /></div>
         <figcaption>Destination inspiration: {destination.name}. Illustrative destination photography.</figcaption>
       </figure>
+      </div>
       <section className="container section destination-story">
         <div>
           <h2>{story.heading}</h2>
@@ -82,6 +86,25 @@ export default async function DestinationPage({ params }: Props) {
           </ul>
         </div>
       </section>
+      {extraPhotos.length > 0 && (
+        <section className="container destination-detail-gallery" aria-labelledby="destination-gallery-heading">
+          <div className="destination-gallery-heading">
+            <h2 id="destination-gallery-heading">A little more of {destination.name}.</h2>
+            <p>A different view to spark your plans. These stock photos are destination inspiration; your itinerary comes together in a conversation with our team.</p>
+          </div>
+          <div className="destination-gallery-photos">
+            {extraPhotos.map((photo) => (
+              <figure key={photo.src}>
+                <div className="photo"><Image src={photo.src} alt={photo.alt} fill sizes="(max-width: 850px) 100vw, 800px" /></div>
+                <figcaption>
+                  {photo.caption} Stock destination photography.
+                  {photo.credit && <> <a href={photo.credit.url} target="_blank" rel="noopener noreferrer">Photo: {photo.credit.name}<span className="sr-only"> (stock source opens in a new tab)</span></a></>}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
       {story.alternative ? (
         <figure className="container destination-second-view">
           <div className="photo"><Image src={story.alternative.image} alt={story.alternative.alt} fill sizes="(max-width: 1200px) 100vw, 1200px" /></div>
@@ -100,6 +123,7 @@ export default async function DestinationPage({ params }: Props) {
           </div>
         </section>
       )}
+      <div className="destination-inquiry">
       <section className="container section destination-assistance">
         <h2>Let’s bring the details together.</h2>
         <p>Start with your destination, preferred dates and travel group. We’ll help you discuss the next steps.</p>
@@ -111,6 +135,7 @@ export default async function DestinationPage({ params }: Props) {
         <Link className="button" href={`/plan?destination=${slug}`}>Start a {destination.name} inquiry <IconArrowUpRight size={20} aria-hidden="true" /></Link>
         <Link className="text-link destination-services-link" href="/services">Explore our services <IconArrowUpRight size={20} aria-hidden="true" /></Link>
       </section>
+      </div>
       <section className="container section destination-more">
         <h2>Keep exploring.</h2>
         <div className="destination-more-grid">
@@ -118,6 +143,6 @@ export default async function DestinationPage({ params }: Props) {
         </div>
         <Link className="text-link" href="/destinations">See all destinations <IconArrowUpRight size={20} aria-hidden="true" /></Link>
       </section>
-    </>
+    </div>
   );
 }

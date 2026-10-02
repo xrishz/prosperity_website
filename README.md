@@ -20,6 +20,16 @@ npm run start
 
 Quality checks are `npm run lint` and `npm run typecheck`.
 
+## Travel Atlas experience
+
+The homepage uses a cartoon travel world: sky, sunshine and mint gradients, subtle cross marks, overlapping destination postcards, a three-dimensional plane and coaches, a filterable ten-photo destination gallery, actual traveler photographs and Prosperity's five sourced core values beside the real team.
+
+Open or refresh plays a finite two-second airplane arrival. Desktop destination choices play a 1.2-second airplane pass before their photographs appear. The destination rail loops automatically and supports mouse/touch dragging, arrows and keyboard navigation. Its leading coach, moving road and service coach suspension reinforce the journey. Pause carousel controls that rail; Pause animations governs ambient page movement through the optional `prosperity-motion` browser preference. Hover, focus, hidden tabs and offscreen placement stop the appropriate movement. Small screens and OS reduced-motion preferences keep ambient scenes still and country changes immediate.
+
+Three is loaded near visible scenes and progressively enhances authored SVG vehicles. The illustrations are decorative; they do not claim an agency-owned fleet or supplier routes. All primary inquiry actions lead to the same trip planner, with country context when selected.
+
+On desktop with a fine mouse pointer and motion enabled, an authored 44px airplane replaces the cursor. Its cyan, white and gold speed ribbon joins the airplane's displayed tail and grows from 20px during slow movement to 320px during a fast sweep. Travelled pointer speed is filtered over 60ms, separately from heading, so fast reversals retain a long trail. It shrinks and fades within 450ms after movement stops. Direction changes ease in and out over 220ms (up to 321ms for a reversal); filtered movement prevents small mouse movements from shaking the plane. Its nose remains the pointer hotspot. Editable fields retain the normal cursor. Mobile, reduced motion, global pause, hidden tabs and pointer exit remove the cursor artwork; its animation does not run while idle.
+
 ## Appearance and inquiry behavior
 
 The compact appearance button shows a sun in light mode and a moon in dark mode. Select it to switch to the other appearance. On a first visit, the website follows the device setting; an explicit light or dark choice is saved in browser local storage under `prosperity-appearance`. Semantic palette definitions live in `src/app/theme.css`; the same components serve both themes.

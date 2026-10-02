@@ -170,6 +170,161 @@
         "width": 1600,
         "height": 2400
       }
+    },
+    {
+      "filename": "japan-kyoto-autumn.jpg",
+      "destination": "Japan / Kyoto",
+      "author": "Bhanu Singh",
+      "alt": "Kiyomizu-dera temple rising above bright red autumn foliage beneath a blue sky in Kyoto",
+      "sourcePage": "https://unsplash.com/photos/temple-building-surrounded-by-bright-red-autumn-trees-oP50BOGpyj0",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1764604186461-07354b3b1c68",
+      "downloadUrl": "https://images.unsplash.com/photo-1764604186461-07354b3b1c68?auto=format&fit=max&fm=jpg&q=85&w=1800",
+      "bytes": 612689,
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "visuallyVerified": true,
+      "width": 1800,
+      "height": 1200,
+      "orientation": "landscape",
+      "role": "destination inspiration gallery and country detail photo",
+      "usage": "Destination inspiration only; do not imply these are Prosperity clients, trips, staff, offices, vehicles, or endorsements.",
+      "originalDimensions": {
+        "width": 1800,
+        "height": 1200,
+        "description": "Downloaded licensed JPEG source at 1800px width; not the full photographer capture."
+      },
+      "servedFile": "public/images/japan-kyoto-autumn.webp",
+      "transformation": "EXIF orientation applied; resized proportionally without enlargement to maximum width 1600px; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "servedBytes": 338102,
+      "provenanceSidecar": "public/images/japan-kyoto-autumn.webp.json"
+    },
+    {
+      "filename": "korea-busan-colorful.jpg",
+      "destination": "South Korea / Busan",
+      "author": "Sam Balye",
+      "alt": "Colorful houses packed along the hillsides of Gamcheon Culture Village in Busan",
+      "sourcePage": "https://unsplash.com/photos/aerial-view-of-buildings-Ny7PxBGxASo",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1570025230203-987d1eccfa0a",
+      "downloadUrl": "https://images.unsplash.com/photo-1570025230203-987d1eccfa0a?auto=format&fit=max&fm=jpg&q=85&w=1800",
+      "bytes": 542219,
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "visuallyVerified": true,
+      "width": 1800,
+      "height": 1200,
+      "orientation": "landscape",
+      "role": "destination inspiration gallery and country detail photo",
+      "usage": "Destination inspiration only; do not imply these are Prosperity clients, trips, staff, offices, vehicles, or endorsements.",
+      "originalDimensions": {
+        "width": 1800,
+        "height": 1200,
+        "description": "Downloaded licensed JPEG source at 1800px width; not the full photographer capture."
+      },
+      "servedFile": "public/images/korea-busan-colorful.webp",
+      "transformation": "EXIF orientation applied; resized proportionally without enlargement to maximum width 1600px; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "servedBytes": 278906,
+      "provenanceSidecar": "public/images/korea-busan-colorful.webp.json"
+    },
+    {
+      "filename": "turkey-istanbul-ferry.jpg",
+      "destination": "Turkey / Istanbul",
+      "author": "Kevin Charit",
+      "alt": "A ferry crossing the Bosphorus beneath the golden silhouettes of Istanbul at sunset",
+      "sourcePage": "https://unsplash.com/photos/a-boat-in-a-body-of-water-with-a-city-in-the-background-K0J25JjBd8U",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1727897023999-5d268e20a880",
+      "downloadUrl": "https://images.unsplash.com/photo-1727897023999-5d268e20a880?auto=format&fit=max&fm=jpg&q=85&w=1800",
+      "bytes": 575084,
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "visuallyVerified": true,
+      "width": 1800,
+      "height": 2700,
+      "orientation": "portrait",
+      "role": "destination inspiration gallery and country detail photo",
+      "usage": "Destination inspiration only; do not imply these are Prosperity clients, trips, staff, offices, vehicles, or endorsements.",
+      "originalDimensions": {
+        "width": 1800,
+        "height": 2700,
+        "description": "Downloaded licensed JPEG source at 1800px width; not the full photographer capture."
+      },
+      "servedFile": "public/images/turkey-istanbul-ferry.webp",
+      "transformation": "EXIF orientation applied; resized proportionally without enlargement to maximum width 1600px; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "servedBytes": 155026,
+      "provenanceSidecar": "public/images/turkey-istanbul-ferry.webp.json"
+    },
+    {
+      "filename": "greece-voutoumi-beach.jpg",
+      "destination": "Greece / Paralia Voutoumi",
+      "author": "Petros Symeonidis",
+      "alt": "A yacht floating in vivid turquoise water beside the white beach and green hills of Voutoumi",
+      "sourcePage": "https://unsplash.com/photos/beautiful-beach-with-turquoise-water-and-a-yacht-EaaIfPkMXMY",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1749891083368-cfd30c27e1f0",
+      "downloadUrl": "https://images.unsplash.com/photo-1749891083368-cfd30c27e1f0?auto=format&fit=max&fm=jpg&q=85&w=1800",
+      "bytes": 491313,
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "visuallyVerified": true,
+      "width": 1800,
+      "height": 1200,
+      "orientation": "landscape",
+      "role": "destination inspiration gallery and country detail photo",
+      "usage": "Destination inspiration only; do not imply these are Prosperity clients, trips, staff, offices, vehicles, or endorsements.",
+      "originalDimensions": {
+        "width": 1800,
+        "height": 1200,
+        "description": "Downloaded licensed JPEG source at 1800px width; not the full photographer capture."
+      },
+      "servedFile": "public/images/greece-voutoumi-beach.webp",
+      "transformation": "EXIF orientation applied; resized proportionally without enlargement to maximum width 1600px; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "servedBytes": 255712,
+      "provenanceSidecar": "public/images/greece-voutoumi-beach.webp.json"
+    },
+    {
+      "filename": "dubai-golden-dunes.jpg",
+      "destination": "United Arab Emirates / Dubai",
+      "author": "Nejc Soklič",
+      "alt": "Layers of golden sand dunes in the Dubai desert lit by a warm sunset",
+      "sourcePage": "https://unsplash.com/photos/golden-sand-dunes-illuminated-by-the-setting-sun-XEDCS6v1hqc",
+      "originalMediaUrl": "https://images.unsplash.com/photo-1763535375949-7055412bd678",
+      "downloadUrl": "https://images.unsplash.com/photo-1763535375949-7055412bd678?auto=format&fit=max&fm=jpg&q=85&w=1800",
+      "bytes": 190638,
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "visuallyVerified": true,
+      "width": 1800,
+      "height": 1202,
+      "orientation": "landscape",
+      "role": "destination inspiration gallery and country detail photo",
+      "usage": "Destination inspiration only; do not imply these are Prosperity clients, trips, staff, offices, vehicles, or endorsements.",
+      "originalDimensions": {
+        "width": 1800,
+        "height": 1202,
+        "description": "Downloaded licensed JPEG source at 1800px width; not the full photographer capture."
+      },
+      "servedFile": "public/images/dubai-golden-dunes.webp",
+      "transformation": "EXIF orientation applied; resized proportionally without enlargement to maximum width 1600px; WebP quality 82.",
+      "servedDimensions": {
+        "width": 1600,
+        "height": 1068
+      },
+      "servedBytes": 39334,
+      "provenanceSidecar": "public/images/dubai-golden-dunes.webp.json"
     }
   ],
   "profile": {

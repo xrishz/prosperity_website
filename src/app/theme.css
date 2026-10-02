@@ -1,10 +1,10 @@
-/* The Evergreen Travel Journal: appearance roles, not component color overrides. */
+/* Travel Atlas: semantic appearance roles and expressive destination regions. */
 :root {
   color-scheme: light;
-  --background: #f7f5ef;
+  --background: #f3faf8;
   --foreground: #182b26;
   --surface-elevated: #fffefa;
-  --surface-subtle: #eeece4;
+  --surface-subtle: #dbefe9;
   --muted-foreground: #52635c;
   --border: #d6d7ce;
   --border-strong: #7a887e;
@@ -19,13 +19,26 @@
   --danger: #a02a2a;
   --focus-ring: #0b3734;
   --focus-contrast: #fffefa;
-  --header-background: #faf9f5;
-  --footer-background: #eeece4;
+  --header-background: #f3faf8;
+  --footer-background: #dbefe9;
   --input-background: #fffefa;
   --disabled-background: #e4e6dd;
   --disabled-foreground: #52635c;
   --scrollbar-thumb: #617669;
-  --logo-background: #fffefa;
+  --logo-background: transparent;
+
+  --atlas-sky: #8edcf4;
+  --atlas-sky-ink: #0b3734;
+  --atlas-yellow: #ffd34f;
+  --atlas-yellow-ink: #0b3734;
+  --atlas-coral: #f18466;
+  --atlas-mint: #ccebdd;
+  --atlas-sea: #087b8c;
+  --atlas-deep-green: #164b43;
+  --atlas-shadow: #0b373426;
+  --atlas-cloud: #f6fcff66;
+  --atlas-picker-hover: #f6fcff4d;
+  --atlas-yellow-rule: #0b373459;
 
   /* Confirmed brand and image contrast stay independent of appearance. */
   --brand-green: #0b3734;
@@ -45,7 +58,7 @@
   --hero-overlay: linear-gradient(90deg, #0418164d, #0418160a 80%), linear-gradient(0deg, #031614d6, transparent 78%);
   --destination-overlay: linear-gradient(transparent 55%, #031814bf);
   --cta-overlay: linear-gradient(90deg, #031a15d9, #031a151f);
-  --selection-background: #e8d3a3;
+  --selection-background: #ffd34f;
   --selection-foreground: #0b3734;
   --mobile-action-shadow: 0 -4px 20px #0b37341a;
 
@@ -81,10 +94,15 @@
   --dark-disabled-background: #28473e;
   --dark-disabled-foreground: #becfc6;
   --dark-scrollbar-thumb: #799789;
-  --dark-logo-background: #fafbf8;
+  --dark-logo-background: transparent;
 }
 
 html[data-theme='dark'] {
+  --atlas-sky: #164b5c;
+  --atlas-sky-ink: #e8faff;
+  --atlas-mint: #234e43;
+  --atlas-cloud: #a2daf022;
+  --atlas-picker-hover: #e8faff1a;
   color-scheme: dark;
   --background: var(--dark-background);
   --foreground: var(--dark-foreground);
@@ -113,6 +131,11 @@ html[data-theme='dark'] {
 /* A system fallback before JavaScript, without overriding an explicit choice. */
 @media (prefers-color-scheme: dark) {
   html:not([data-theme]) {
+    --atlas-sky: #164b5c;
+    --atlas-sky-ink: #e8faff;
+    --atlas-mint: #234e43;
+    --atlas-cloud: #a2daf022;
+    --atlas-picker-hover: #e8faff1a;
     color-scheme: dark;
     --background: var(--dark-background);
     --foreground: var(--dark-foreground);

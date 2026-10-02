@@ -1,26 +1,28 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-02T05:14:19.430Z",
+  "generatedAt": "2026-10-02T12:32:12.050Z",
   "title": "Design System: Prosperity International Travel Services",
   "extensions": {
     "colorMeta": {
       "background": {
         "role": "neutral",
-        "displayName": "Warm Ivory",
+        "displayName": "Pale Mint Canvas",
+        "canonical": "#f3faf8",
         "tonalRamp": [
-          "oklch(0.1500 0.0082 91.48)",
-          "oklch(0.2643 0.0082 91.48)",
-          "oklch(0.3786 0.0082 91.48)",
-          "oklch(0.4929 0.0082 91.48)",
-          "oklch(0.6071 0.0082 91.48)",
-          "oklch(0.7214 0.0082 91.48)",
-          "oklch(0.8357 0.0082 91.48)",
-          "oklch(0.9500 0.0082 91.48)"
+          "oklch(0.1500 0.0078 177.33)",
+          "oklch(0.2643 0.0078 177.33)",
+          "oklch(0.3786 0.0078 177.33)",
+          "oklch(0.4929 0.0078 177.33)",
+          "oklch(0.6071 0.0078 177.33)",
+          "oklch(0.7214 0.0078 177.33)",
+          "oklch(0.8357 0.0078 177.33)",
+          "oklch(0.9500 0.0078 177.33)"
         ]
       },
       "foreground": {
         "role": "neutral",
-        "displayName": "Evergreen Text",
+        "displayName": "Foreground",
+        "canonical": "#182b26",
         "tonalRamp": [
           "oklch(0.1500 0.0267 175.72)",
           "oklch(0.2643 0.0267 175.72)",
@@ -34,7 +36,8 @@
       },
       "surface-elevated": {
         "role": "neutral",
-        "displayName": "Warm White",
+        "displayName": "Surface Elevated",
+        "canonical": "#fffefa",
         "tonalRamp": [
           "oklch(0.1500 0.0054 95.10)",
           "oklch(0.2643 0.0054 95.10)",
@@ -48,21 +51,23 @@
       },
       "surface-subtle": {
         "role": "neutral",
-        "displayName": "Linen Paper",
+        "displayName": "Soft Mint Surface",
+        "canonical": "#dbefe9",
         "tonalRamp": [
-          "oklch(0.1500 0.0109 95.17)",
-          "oklch(0.2643 0.0109 95.17)",
-          "oklch(0.3786 0.0109 95.17)",
-          "oklch(0.4929 0.0109 95.17)",
-          "oklch(0.6071 0.0109 95.17)",
-          "oklch(0.7214 0.0109 95.17)",
-          "oklch(0.8357 0.0109 95.17)",
-          "oklch(0.9500 0.0109 95.17)"
+          "oklch(0.1500 0.0226 175.94)",
+          "oklch(0.2643 0.0226 175.94)",
+          "oklch(0.3786 0.0226 175.94)",
+          "oklch(0.4929 0.0226 175.94)",
+          "oklch(0.6071 0.0226 175.94)",
+          "oklch(0.7214 0.0226 175.94)",
+          "oklch(0.8357 0.0226 175.94)",
+          "oklch(0.9500 0.0226 175.94)"
         ]
       },
       "muted-foreground": {
         "role": "neutral",
-        "displayName": "Soft Evergreen Text",
+        "displayName": "Muted Foreground",
+        "canonical": "#52635c",
         "tonalRamp": [
           "oklch(0.1500 0.0235 168.49)",
           "oklch(0.2643 0.0235 168.49)",
@@ -76,7 +81,8 @@
       },
       "border": {
         "role": "neutral",
-        "displayName": "Quiet Rule",
+        "displayName": "Border",
+        "canonical": "#d6d7ce",
         "tonalRamp": [
           "oklch(0.1500 0.0122 111.79)",
           "oklch(0.2643 0.0122 111.79)",
@@ -90,7 +96,8 @@
       },
       "border-strong": {
         "role": "neutral",
-        "displayName": "Control Stroke",
+        "displayName": "Border Strong",
+        "canonical": "#7a887e",
         "tonalRamp": [
           "oklch(0.1500 0.0221 154.60)",
           "oklch(0.2643 0.0221 154.60)",
@@ -104,7 +111,8 @@
       },
       "primary": {
         "role": "primary",
-        "displayName": "Evergreen Action",
+        "displayName": "Primary",
+        "canonical": "#0b3734",
         "tonalRamp": [
           "oklch(0.1500 0.0467 188.40)",
           "oklch(0.2643 0.0467 188.40)",
@@ -118,7 +126,8 @@
       },
       "primary-foreground": {
         "role": "primary",
-        "displayName": "Action Text",
+        "displayName": "Primary Foreground",
+        "canonical": "#fffefa",
         "tonalRamp": [
           "oklch(0.1500 0.0054 95.10)",
           "oklch(0.2643 0.0054 95.10)",
@@ -132,7 +141,8 @@
       },
       "primary-hover": {
         "role": "primary",
-        "displayName": "Evergreen Hover",
+        "displayName": "Primary Hover",
+        "canonical": "#245a4d",
         "tonalRamp": [
           "oklch(0.1500 0.0615 174.99)",
           "oklch(0.2643 0.0615 174.99)",
@@ -144,79 +154,10 @@
           "oklch(0.9500 0.0615 174.99)"
         ]
       },
-      "secondary": {
-        "role": "neutral",
-        "displayName": "Supporting Surface",
-        "tonalRamp": [
-          "oklch(0.1500 0.0109 95.17)",
-          "oklch(0.2643 0.0109 95.17)",
-          "oklch(0.3786 0.0109 95.17)",
-          "oklch(0.4929 0.0109 95.17)",
-          "oklch(0.6071 0.0109 95.17)",
-          "oklch(0.7214 0.0109 95.17)",
-          "oklch(0.8357 0.0109 95.17)",
-          "oklch(0.9500 0.0109 95.17)"
-        ]
-      },
-      "secondary-foreground": {
-        "role": "neutral",
-        "displayName": "Supporting Text",
-        "tonalRamp": [
-          "oklch(0.1500 0.0267 175.72)",
-          "oklch(0.2643 0.0267 175.72)",
-          "oklch(0.3786 0.0267 175.72)",
-          "oklch(0.4929 0.0267 175.72)",
-          "oklch(0.6071 0.0267 175.72)",
-          "oklch(0.7214 0.0267 175.72)",
-          "oklch(0.8357 0.0267 175.72)",
-          "oklch(0.9500 0.0267 175.72)"
-        ]
-      },
-      "accent": {
-        "role": "secondary",
-        "displayName": "Warm Gold",
-        "tonalRamp": [
-          "oklch(0.1500 0.0995 82.63)",
-          "oklch(0.2643 0.0995 82.63)",
-          "oklch(0.3786 0.0995 82.63)",
-          "oklch(0.4929 0.0995 82.63)",
-          "oklch(0.6071 0.0995 82.63)",
-          "oklch(0.7214 0.0995 82.63)",
-          "oklch(0.8357 0.0995 82.63)",
-          "oklch(0.9500 0.0995 82.63)"
-        ]
-      },
-      "accent-foreground": {
-        "role": "secondary",
-        "displayName": "Gold Utility Ink",
-        "tonalRamp": [
-          "oklch(0.1500 0.0750 85.21)",
-          "oklch(0.2643 0.0750 85.21)",
-          "oklch(0.3786 0.0750 85.21)",
-          "oklch(0.4929 0.0750 85.21)",
-          "oklch(0.6071 0.0750 85.21)",
-          "oklch(0.7214 0.0750 85.21)",
-          "oklch(0.8357 0.0750 85.21)",
-          "oklch(0.9500 0.0750 85.21)"
-        ]
-      },
-      "link-hover": {
-        "role": "secondary",
-        "displayName": "Warm Link Accent",
-        "tonalRamp": [
-          "oklch(0.1500 0.0770 84.48)",
-          "oklch(0.2643 0.0770 84.48)",
-          "oklch(0.3786 0.0770 84.48)",
-          "oklch(0.4929 0.0770 84.48)",
-          "oklch(0.6071 0.0770 84.48)",
-          "oklch(0.7214 0.0770 84.48)",
-          "oklch(0.8357 0.0770 84.48)",
-          "oklch(0.9500 0.0770 84.48)"
-        ]
-      },
       "danger": {
-        "role": "tertiary",
-        "displayName": "Validation Red",
+        "role": "neutral",
+        "displayName": "Danger",
+        "canonical": "#a02a2a",
         "tonalRamp": [
           "oklch(0.1500 0.1545 25.38)",
           "oklch(0.2643 0.1545 25.38)",
@@ -229,8 +170,9 @@
         ]
       },
       "focus-ring": {
-        "role": "primary",
-        "displayName": "Evergreen Focus",
+        "role": "neutral",
+        "displayName": "Focus Ring",
+        "canonical": "#0b3734",
         "tonalRamp": [
           "oklch(0.1500 0.0467 188.40)",
           "oklch(0.2643 0.0467 188.40)",
@@ -245,6 +187,7 @@
       "focus-contrast": {
         "role": "neutral",
         "displayName": "Focus Contrast",
+        "canonical": "#fffefa",
         "tonalRamp": [
           "oklch(0.1500 0.0054 95.10)",
           "oklch(0.2643 0.0054 95.10)",
@@ -254,39 +197,12 @@
           "oklch(0.7214 0.0054 95.10)",
           "oklch(0.8357 0.0054 95.10)",
           "oklch(0.9500 0.0054 95.10)"
-        ]
-      },
-      "header-background": {
-        "role": "neutral",
-        "displayName": "Header Paper",
-        "tonalRamp": [
-          "oklch(0.1500 0.0054 95.10)",
-          "oklch(0.2643 0.0054 95.10)",
-          "oklch(0.3786 0.0054 95.10)",
-          "oklch(0.4929 0.0054 95.10)",
-          "oklch(0.6071 0.0054 95.10)",
-          "oklch(0.7214 0.0054 95.10)",
-          "oklch(0.8357 0.0054 95.10)",
-          "oklch(0.9500 0.0054 95.10)"
-        ]
-      },
-      "footer-background": {
-        "role": "neutral",
-        "displayName": "Footer Linen",
-        "tonalRamp": [
-          "oklch(0.1500 0.0109 95.17)",
-          "oklch(0.2643 0.0109 95.17)",
-          "oklch(0.3786 0.0109 95.17)",
-          "oklch(0.4929 0.0109 95.17)",
-          "oklch(0.6071 0.0109 95.17)",
-          "oklch(0.7214 0.0109 95.17)",
-          "oklch(0.8357 0.0109 95.17)",
-          "oklch(0.9500 0.0109 95.17)"
         ]
       },
       "input-background": {
         "role": "neutral",
-        "displayName": "Field White",
+        "displayName": "Input Background",
+        "canonical": "#fffefa",
         "tonalRamp": [
           "oklch(0.1500 0.0054 95.10)",
           "oklch(0.2643 0.0054 95.10)",
@@ -300,7 +216,8 @@
       },
       "disabled-background": {
         "role": "neutral",
-        "displayName": "Disabled Surface",
+        "displayName": "Disabled Background",
+        "canonical": "#e4e6dd",
         "tonalRamp": [
           "oklch(0.1500 0.0122 116.82)",
           "oklch(0.2643 0.0122 116.82)",
@@ -314,7 +231,8 @@
       },
       "disabled-foreground": {
         "role": "neutral",
-        "displayName": "Disabled Text",
+        "displayName": "Disabled Foreground",
+        "canonical": "#52635c",
         "tonalRamp": [
           "oklch(0.1500 0.0235 168.49)",
           "oklch(0.2643 0.0235 168.49)",
@@ -326,37 +244,140 @@
           "oklch(0.9500 0.0235 168.49)"
         ]
       },
-      "scrollbar-thumb": {
-        "role": "neutral",
-        "displayName": "Evergreen Scroll Thumb",
+      "atlas-sky": {
+        "role": "secondary",
+        "displayName": "Atlas Sky",
+        "canonical": "#8edcf4",
         "tonalRamp": [
-          "oklch(0.1500 0.0319 157.99)",
-          "oklch(0.2643 0.0319 157.99)",
-          "oklch(0.3786 0.0319 157.99)",
-          "oklch(0.4929 0.0319 157.99)",
-          "oklch(0.6071 0.0319 157.99)",
-          "oklch(0.7214 0.0319 157.99)",
-          "oklch(0.8357 0.0319 157.99)",
-          "oklch(0.9500 0.0319 157.99)"
+          "oklch(0.1500 0.0835 219.38)",
+          "oklch(0.2643 0.0835 219.38)",
+          "oklch(0.3786 0.0835 219.38)",
+          "oklch(0.4929 0.0835 219.38)",
+          "oklch(0.6071 0.0835 219.38)",
+          "oklch(0.7214 0.0835 219.38)",
+          "oklch(0.8357 0.0835 219.38)",
+          "oklch(0.9500 0.0835 219.38)"
         ]
       },
-      "logo-background": {
+      "atlas-sky-ink": {
         "role": "neutral",
-        "displayName": "Logo Backing",
+        "displayName": "Atlas Sky Ink",
+        "canonical": "#0b3734",
         "tonalRamp": [
-          "oklch(0.1500 0.0054 95.10)",
-          "oklch(0.2643 0.0054 95.10)",
-          "oklch(0.3786 0.0054 95.10)",
-          "oklch(0.4929 0.0054 95.10)",
-          "oklch(0.6071 0.0054 95.10)",
-          "oklch(0.7214 0.0054 95.10)",
-          "oklch(0.8357 0.0054 95.10)",
-          "oklch(0.9500 0.0054 95.10)"
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
         ]
+      },
+      "atlas-yellow": {
+        "role": "tertiary",
+        "displayName": "Sunshine Yellow",
+        "canonical": "#ffd34f",
+        "tonalRamp": [
+          "oklch(0.1500 0.1528 90.14)",
+          "oklch(0.2643 0.1528 90.14)",
+          "oklch(0.3786 0.1528 90.14)",
+          "oklch(0.4929 0.1528 90.14)",
+          "oklch(0.6071 0.1528 90.14)",
+          "oklch(0.7214 0.1528 90.14)",
+          "oklch(0.8357 0.1528 90.14)",
+          "oklch(0.9500 0.1528 90.14)"
+        ]
+      },
+      "atlas-yellow-ink": {
+        "role": "tertiary",
+        "displayName": "Atlas Yellow Ink",
+        "canonical": "#0b3734",
+        "tonalRamp": [
+          "oklch(0.1500 0.0467 188.40)",
+          "oklch(0.2643 0.0467 188.40)",
+          "oklch(0.3786 0.0467 188.40)",
+          "oklch(0.4929 0.0467 188.40)",
+          "oklch(0.6071 0.0467 188.40)",
+          "oklch(0.7214 0.0467 188.40)",
+          "oklch(0.8357 0.0467 188.40)",
+          "oklch(0.9500 0.0467 188.40)"
+        ]
+      },
+      "atlas-coral": {
+        "role": "tertiary",
+        "displayName": "Warm Coral",
+        "canonical": "#f18466",
+        "tonalRamp": [
+          "oklch(0.1500 0.1407 36.30)",
+          "oklch(0.2643 0.1407 36.30)",
+          "oklch(0.3786 0.1407 36.30)",
+          "oklch(0.4929 0.1407 36.30)",
+          "oklch(0.6071 0.1407 36.30)",
+          "oklch(0.7214 0.1407 36.30)",
+          "oklch(0.8357 0.1407 36.30)",
+          "oklch(0.9500 0.1407 36.30)"
+        ]
+      },
+      "atlas-mint": {
+        "role": "neutral",
+        "displayName": "Atlas Mint",
+        "canonical": "#ccebdd",
+        "tonalRamp": [
+          "oklch(0.1500 0.0376 166.54)",
+          "oklch(0.2643 0.0376 166.54)",
+          "oklch(0.3786 0.0376 166.54)",
+          "oklch(0.4929 0.0376 166.54)",
+          "oklch(0.6071 0.0376 166.54)",
+          "oklch(0.7214 0.0376 166.54)",
+          "oklch(0.8357 0.0376 166.54)",
+          "oklch(0.9500 0.0376 166.54)"
+        ]
+      },
+      "atlas-sea": {
+        "role": "primary",
+        "displayName": "Atlas Sea",
+        "canonical": "#087b8c",
+        "tonalRamp": [
+          "oklch(0.1500 0.0916 211.78)",
+          "oklch(0.2643 0.0916 211.78)",
+          "oklch(0.3786 0.0916 211.78)",
+          "oklch(0.4929 0.0916 211.78)",
+          "oklch(0.6071 0.0916 211.78)",
+          "oklch(0.7214 0.0916 211.78)",
+          "oklch(0.8357 0.0916 211.78)",
+          "oklch(0.9500 0.0916 211.78)"
+        ]
+      },
+      "atlas-deep-green": {
+        "role": "primary",
+        "displayName": "Atlas Deep Green",
+        "canonical": "#164b43",
+        "tonalRamp": [
+          "oklch(0.1500 0.0568 181.25)",
+          "oklch(0.2643 0.0568 181.25)",
+          "oklch(0.3786 0.0568 181.25)",
+          "oklch(0.4929 0.0568 181.25)",
+          "oklch(0.6071 0.0568 181.25)",
+          "oklch(0.7214 0.0568 181.25)",
+          "oklch(0.8357 0.0568 181.25)",
+          "oklch(0.9500 0.0568 181.25)"
+        ]
+      },
+      "atlas-shadow": {
+        "role": "neutral",
+        "displayName": "Atlas Shadow",
+        "canonical": "#0b373426"
+      },
+      "atlas-picker-hover": {
+        "role": "neutral",
+        "displayName": "Atlas Picker Hover",
+        "canonical": "#f6fcff4d"
       },
       "brand-green": {
         "role": "primary",
-        "displayName": "Original Evergreen",
+        "displayName": "Brand Evergreen",
+        "canonical": "#0b3734",
         "tonalRamp": [
           "oklch(0.1500 0.0467 188.40)",
           "oklch(0.2643 0.0467 188.40)",
@@ -369,8 +390,9 @@
         ]
       },
       "brand-gold": {
-        "role": "secondary",
-        "displayName": "Original Warm Gold",
+        "role": "tertiary",
+        "displayName": "Brand Gold",
+        "canonical": "#d4af68",
         "tonalRamp": [
           "oklch(0.1500 0.0995 82.63)",
           "oklch(0.2643 0.0995 82.63)",
@@ -382,23 +404,10 @@
           "oklch(0.9500 0.0995 82.63)"
         ]
       },
-      "media-background": {
-        "role": "neutral",
-        "displayName": "Media Evergreen",
-        "tonalRamp": [
-          "oklch(0.1500 0.0464 179.69)",
-          "oklch(0.2643 0.0464 179.69)",
-          "oklch(0.3786 0.0464 179.69)",
-          "oklch(0.4929 0.0464 179.69)",
-          "oklch(0.6071 0.0464 179.69)",
-          "oklch(0.7214 0.0464 179.69)",
-          "oklch(0.8357 0.0464 179.69)",
-          "oklch(0.9500 0.0464 179.69)"
-        ]
-      },
       "media-foreground": {
         "role": "neutral",
-        "displayName": "Media Warm White",
+        "displayName": "Media Foreground",
+        "canonical": "#fffefa",
         "tonalRamp": [
           "oklch(0.1500 0.0054 95.10)",
           "oklch(0.2643 0.0054 95.10)",
@@ -410,79 +419,10 @@
           "oklch(0.9500 0.0054 95.10)"
         ]
       },
-      "media-muted-foreground": {
-        "role": "neutral",
-        "displayName": "Media Supporting Text",
-        "tonalRamp": [
-          "oklch(0.1500 0.0151 123.04)",
-          "oklch(0.2643 0.0151 123.04)",
-          "oklch(0.3786 0.0151 123.04)",
-          "oklch(0.4929 0.0151 123.04)",
-          "oklch(0.6071 0.0151 123.04)",
-          "oklch(0.7214 0.0151 123.04)",
-          "oklch(0.8357 0.0151 123.04)",
-          "oklch(0.9500 0.0151 123.04)"
-        ]
-      },
-      "media-caption-foreground": {
-        "role": "neutral",
-        "displayName": "Media Caption Text",
-        "tonalRamp": [
-          "oklch(0.1500 0.0130 130.78)",
-          "oklch(0.2643 0.0130 130.78)",
-          "oklch(0.3786 0.0130 130.78)",
-          "oklch(0.4929 0.0130 130.78)",
-          "oklch(0.6071 0.0130 130.78)",
-          "oklch(0.7214 0.0130 130.78)",
-          "oklch(0.8357 0.0130 130.78)",
-          "oklch(0.9500 0.0130 130.78)"
-        ]
-      },
-      "media-secondary-foreground": {
-        "role": "neutral",
-        "displayName": "Media Secondary Text",
-        "tonalRamp": [
-          "oklch(0.1500 0.0170 145.44)",
-          "oklch(0.2643 0.0170 145.44)",
-          "oklch(0.3786 0.0170 145.44)",
-          "oklch(0.4929 0.0170 145.44)",
-          "oklch(0.6071 0.0170 145.44)",
-          "oklch(0.7214 0.0170 145.44)",
-          "oklch(0.8357 0.0170 145.44)",
-          "oklch(0.9500 0.0170 145.44)"
-        ]
-      },
-      "media-border": {
-        "role": "neutral",
-        "displayName": "Media Control Stroke",
-        "tonalRamp": [
-          "oklch(0.1500 0.0054 95.10 / 0.7020)",
-          "oklch(0.2643 0.0054 95.10 / 0.7020)",
-          "oklch(0.3786 0.0054 95.10 / 0.7020)",
-          "oklch(0.4929 0.0054 95.10 / 0.7020)",
-          "oklch(0.6071 0.0054 95.10 / 0.7020)",
-          "oklch(0.7214 0.0054 95.10 / 0.7020)",
-          "oklch(0.8357 0.0054 95.10 / 0.7020)",
-          "oklch(0.9500 0.0054 95.10 / 0.7020)"
-        ]
-      },
-      "media-control-background": {
-        "role": "neutral",
-        "displayName": "Media Control Backing",
-        "tonalRamp": [
-          "oklch(0.1500 0.0291 183.05 / 0.4392)",
-          "oklch(0.2643 0.0291 183.05 / 0.4392)",
-          "oklch(0.3786 0.0291 183.05 / 0.4392)",
-          "oklch(0.4929 0.0291 183.05 / 0.4392)",
-          "oklch(0.6071 0.0291 183.05 / 0.4392)",
-          "oklch(0.7214 0.0291 183.05 / 0.4392)",
-          "oklch(0.8357 0.0291 183.05 / 0.4392)",
-          "oklch(0.9500 0.0291 183.05 / 0.4392)"
-        ]
-      },
       "media-button-background": {
         "role": "neutral",
-        "displayName": "Media Action White",
+        "displayName": "Media Button Background",
+        "canonical": "#fffefa",
         "tonalRamp": [
           "oklch(0.1500 0.0054 95.10)",
           "oklch(0.2643 0.0054 95.10)",
@@ -496,7 +436,8 @@
       },
       "media-button-foreground": {
         "role": "neutral",
-        "displayName": "Media Action Evergreen",
+        "displayName": "Media Button Foreground",
+        "canonical": "#0b3734",
         "tonalRamp": [
           "oklch(0.1500 0.0467 188.40)",
           "oklch(0.2643 0.0467 188.40)",
@@ -509,50 +450,34 @@
         ]
       },
       "media-button-hover": {
-        "role": "secondary",
-        "displayName": "Media Pale Gold",
-        "tonalRamp": [
-          "oklch(0.1500 0.0669 87.12)",
-          "oklch(0.2643 0.0669 87.12)",
-          "oklch(0.3786 0.0669 87.12)",
-          "oklch(0.4929 0.0669 87.12)",
-          "oklch(0.6071 0.0669 87.12)",
-          "oklch(0.7214 0.0669 87.12)",
-          "oklch(0.8357 0.0669 87.12)",
-          "oklch(0.9500 0.0669 87.12)"
-        ]
-      },
-      "selection-background": {
-        "role": "secondary",
-        "displayName": "Pale Gold Selection",
-        "tonalRamp": [
-          "oklch(0.1500 0.0669 87.12)",
-          "oklch(0.2643 0.0669 87.12)",
-          "oklch(0.3786 0.0669 87.12)",
-          "oklch(0.4929 0.0669 87.12)",
-          "oklch(0.6071 0.0669 87.12)",
-          "oklch(0.7214 0.0669 87.12)",
-          "oklch(0.8357 0.0669 87.12)",
-          "oklch(0.9500 0.0669 87.12)"
-        ]
-      },
-      "selection-foreground": {
         "role": "neutral",
-        "displayName": "Evergreen Selection",
+        "displayName": "Media Button Hover",
+        "canonical": "#e8d3a3",
         "tonalRamp": [
-          "oklch(0.1500 0.0467 188.40)",
-          "oklch(0.2643 0.0467 188.40)",
-          "oklch(0.3786 0.0467 188.40)",
-          "oklch(0.4929 0.0467 188.40)",
-          "oklch(0.6071 0.0467 188.40)",
-          "oklch(0.7214 0.0467 188.40)",
-          "oklch(0.8357 0.0467 188.40)",
-          "oklch(0.9500 0.0467 188.40)"
+          "oklch(0.1500 0.0669 87.12)",
+          "oklch(0.2643 0.0669 87.12)",
+          "oklch(0.3786 0.0669 87.12)",
+          "oklch(0.4929 0.0669 87.12)",
+          "oklch(0.6071 0.0669 87.12)",
+          "oklch(0.7214 0.0669 87.12)",
+          "oklch(0.8357 0.0669 87.12)",
+          "oklch(0.9500 0.0669 87.12)"
         ]
+      },
+      "media-control-background": {
+        "role": "neutral",
+        "displayName": "Media Control Background",
+        "canonical": "#03181570"
+      },
+      "media-border": {
+        "role": "neutral",
+        "displayName": "Media Border",
+        "canonical": "#fffefab3"
       },
       "dark-background": {
         "role": "neutral",
-        "displayName": "Deep Evergreen",
+        "displayName": "Dark Background",
+        "canonical": "#102b28",
         "tonalRamp": [
           "oklch(0.1500 0.0335 185.82)",
           "oklch(0.2643 0.0335 185.82)",
@@ -566,7 +491,8 @@
       },
       "dark-foreground": {
         "role": "neutral",
-        "displayName": "Pale Paper Text",
+        "displayName": "Dark Foreground",
+        "canonical": "#f3f5ee",
         "tonalRamp": [
           "oklch(0.1500 0.0095 119.58)",
           "oklch(0.2643 0.0095 119.58)",
@@ -580,7 +506,8 @@
       },
       "dark-surface-elevated": {
         "role": "neutral",
-        "displayName": "Elevated Evergreen",
+        "displayName": "Dark Surface Elevated",
+        "canonical": "#1d3f39",
         "tonalRamp": [
           "oklch(0.1500 0.0414 180.85)",
           "oklch(0.2643 0.0414 180.85)",
@@ -594,7 +521,8 @@
       },
       "dark-surface-subtle": {
         "role": "neutral",
-        "displayName": "Deep Sage Surface",
+        "displayName": "Dark Surface Subtle",
+        "canonical": "#183a35",
         "tonalRamp": [
           "oklch(0.1500 0.0408 182.87)",
           "oklch(0.2643 0.0408 182.87)",
@@ -608,7 +536,8 @@
       },
       "dark-muted-foreground": {
         "role": "neutral",
-        "displayName": "Soft Sage Text",
+        "displayName": "Dark Muted Foreground",
+        "canonical": "#becfc6",
         "tonalRamp": [
           "oklch(0.1500 0.0222 162.95)",
           "oklch(0.2643 0.0222 162.95)",
@@ -622,7 +551,8 @@
       },
       "dark-border": {
         "role": "neutral",
-        "displayName": "Deep Sage Rule",
+        "displayName": "Dark Border",
+        "canonical": "#38534a",
         "tonalRamp": [
           "oklch(0.1500 0.0360 171.75)",
           "oklch(0.2643 0.0360 171.75)",
@@ -636,7 +566,8 @@
       },
       "dark-border-strong": {
         "role": "neutral",
-        "displayName": "Sage Control Stroke",
+        "displayName": "Dark Border Strong",
+        "canonical": "#799789",
         "tonalRamp": [
           "oklch(0.1500 0.0396 165.13)",
           "oklch(0.2643 0.0396 165.13)",
@@ -650,7 +581,8 @@
       },
       "dark-primary": {
         "role": "primary",
-        "displayName": "Pale Sage Action",
+        "displayName": "Dark Primary",
+        "canonical": "#d5e6cf",
         "tonalRamp": [
           "oklch(0.1500 0.0358 137.48)",
           "oklch(0.2643 0.0358 137.48)",
@@ -664,7 +596,8 @@
       },
       "dark-primary-foreground": {
         "role": "primary",
-        "displayName": "Evergreen Action Text",
+        "displayName": "Dark Primary Foreground",
+        "canonical": "#0b3734",
         "tonalRamp": [
           "oklch(0.1500 0.0467 188.40)",
           "oklch(0.2643 0.0467 188.40)",
@@ -678,7 +611,8 @@
       },
       "dark-primary-hover": {
         "role": "primary",
-        "displayName": "Pale Sage Hover",
+        "displayName": "Dark Primary Hover",
+        "canonical": "#e5eddf",
         "tonalRamp": [
           "oklch(0.1500 0.0205 131.46)",
           "oklch(0.2643 0.0205 131.46)",
@@ -690,37 +624,10 @@
           "oklch(0.9500 0.0205 131.46)"
         ]
       },
-      "dark-accent-foreground": {
-        "role": "secondary",
-        "displayName": "Pale Gold Utility Ink",
-        "tonalRamp": [
-          "oklch(0.1500 0.0822 85.32)",
-          "oklch(0.2643 0.0822 85.32)",
-          "oklch(0.3786 0.0822 85.32)",
-          "oklch(0.4929 0.0822 85.32)",
-          "oklch(0.6071 0.0822 85.32)",
-          "oklch(0.7214 0.0822 85.32)",
-          "oklch(0.8357 0.0822 85.32)",
-          "oklch(0.9500 0.0822 85.32)"
-        ]
-      },
-      "dark-link-hover": {
-        "role": "secondary",
-        "displayName": "Pale Gold Link Accent",
-        "tonalRamp": [
-          "oklch(0.1500 0.0822 85.32)",
-          "oklch(0.2643 0.0822 85.32)",
-          "oklch(0.3786 0.0822 85.32)",
-          "oklch(0.4929 0.0822 85.32)",
-          "oklch(0.6071 0.0822 85.32)",
-          "oklch(0.7214 0.0822 85.32)",
-          "oklch(0.8357 0.0822 85.32)",
-          "oklch(0.9500 0.0822 85.32)"
-        ]
-      },
       "dark-danger": {
-        "role": "tertiary",
-        "displayName": "Warm Validation Red",
+        "role": "neutral",
+        "displayName": "Dark Danger",
+        "canonical": "#ffaba8",
         "tonalRamp": [
           "oklch(0.1500 0.0996 21.70)",
           "oklch(0.2643 0.0996 21.70)",
@@ -733,8 +640,9 @@
         ]
       },
       "dark-focus-ring": {
-        "role": "primary",
-        "displayName": "Pale Sage Focus",
+        "role": "neutral",
+        "displayName": "Dark Focus Ring",
+        "canonical": "#d5e6cf",
         "tonalRamp": [
           "oklch(0.1500 0.0358 137.48)",
           "oklch(0.2643 0.0358 137.48)",
@@ -748,7 +656,8 @@
       },
       "dark-focus-contrast": {
         "role": "neutral",
-        "displayName": "Evergreen Focus Contrast",
+        "displayName": "Dark Focus Contrast",
+        "canonical": "#0b3734",
         "tonalRamp": [
           "oklch(0.1500 0.0467 188.40)",
           "oklch(0.2643 0.0467 188.40)",
@@ -760,37 +669,10 @@
           "oklch(0.9500 0.0467 188.40)"
         ]
       },
-      "dark-header-background": {
-        "role": "neutral",
-        "displayName": "Deep Evergreen Header",
-        "tonalRamp": [
-          "oklch(0.1500 0.0335 185.82)",
-          "oklch(0.2643 0.0335 185.82)",
-          "oklch(0.3786 0.0335 185.82)",
-          "oklch(0.4929 0.0335 185.82)",
-          "oklch(0.6071 0.0335 185.82)",
-          "oklch(0.7214 0.0335 185.82)",
-          "oklch(0.8357 0.0335 185.82)",
-          "oklch(0.9500 0.0335 185.82)"
-        ]
-      },
-      "dark-footer-background": {
-        "role": "neutral",
-        "displayName": "Deep Evergreen Footer",
-        "tonalRamp": [
-          "oklch(0.1500 0.0335 185.82)",
-          "oklch(0.2643 0.0335 185.82)",
-          "oklch(0.3786 0.0335 185.82)",
-          "oklch(0.4929 0.0335 185.82)",
-          "oklch(0.6071 0.0335 185.82)",
-          "oklch(0.7214 0.0335 185.82)",
-          "oklch(0.8357 0.0335 185.82)",
-          "oklch(0.9500 0.0335 185.82)"
-        ]
-      },
       "dark-input-background": {
         "role": "neutral",
-        "displayName": "Deep Sage Field",
+        "displayName": "Dark Input Background",
+        "canonical": "#183a35",
         "tonalRamp": [
           "oklch(0.1500 0.0408 182.87)",
           "oklch(0.2643 0.0408 182.87)",
@@ -804,7 +686,8 @@
       },
       "dark-disabled-background": {
         "role": "neutral",
-        "displayName": "Disabled Evergreen Surface",
+        "displayName": "Dark Disabled Background",
+        "canonical": "#28473e",
         "tonalRamp": [
           "oklch(0.1500 0.0404 173.50)",
           "oklch(0.2643 0.0404 173.50)",
@@ -818,7 +701,8 @@
       },
       "dark-disabled-foreground": {
         "role": "neutral",
-        "displayName": "Disabled Sage Text",
+        "displayName": "Dark Disabled Foreground",
+        "canonical": "#becfc6",
         "tonalRamp": [
           "oklch(0.1500 0.0222 162.95)",
           "oklch(0.2643 0.0222 162.95)",
@@ -830,149 +714,171 @@
           "oklch(0.9500 0.0222 162.95)"
         ]
       },
-      "dark-scrollbar-thumb": {
-        "role": "neutral",
-        "displayName": "Sage Scroll Thumb",
+      "dark-atlas-sky": {
+        "role": "secondary",
+        "displayName": "Night Sky Field",
+        "canonical": "#164b5c",
         "tonalRamp": [
-          "oklch(0.1500 0.0396 165.13)",
-          "oklch(0.2643 0.0396 165.13)",
-          "oklch(0.3786 0.0396 165.13)",
-          "oklch(0.4929 0.0396 165.13)",
-          "oklch(0.6071 0.0396 165.13)",
-          "oklch(0.7214 0.0396 165.13)",
-          "oklch(0.8357 0.0396 165.13)",
-          "oklch(0.9500 0.0396 165.13)"
+          "oklch(0.1500 0.0612 223.33)",
+          "oklch(0.2643 0.0612 223.33)",
+          "oklch(0.3786 0.0612 223.33)",
+          "oklch(0.4929 0.0612 223.33)",
+          "oklch(0.6071 0.0612 223.33)",
+          "oklch(0.7214 0.0612 223.33)",
+          "oklch(0.8357 0.0612 223.33)",
+          "oklch(0.9500 0.0612 223.33)"
         ]
       },
-      "dark-logo-background": {
+      "dark-atlas-sky-ink": {
         "role": "neutral",
-        "displayName": "Light Logo Backing",
+        "displayName": "Dark Atlas Sky Ink",
+        "canonical": "#e8faff",
         "tonalRamp": [
-          "oklch(0.1500 0.0041 121.56)",
-          "oklch(0.2643 0.0041 121.56)",
-          "oklch(0.3786 0.0041 121.56)",
-          "oklch(0.4929 0.0041 121.56)",
-          "oklch(0.6071 0.0041 121.56)",
-          "oklch(0.7214 0.0041 121.56)",
-          "oklch(0.8357 0.0041 121.56)",
-          "oklch(0.9500 0.0041 121.56)"
+          "oklch(0.1500 0.0201 216.19)",
+          "oklch(0.2643 0.0201 216.19)",
+          "oklch(0.3786 0.0201 216.19)",
+          "oklch(0.4929 0.0201 216.19)",
+          "oklch(0.6071 0.0201 216.19)",
+          "oklch(0.7214 0.0201 216.19)",
+          "oklch(0.8357 0.0201 216.19)",
+          "oklch(0.9500 0.0201 216.19)"
         ]
+      },
+      "dark-atlas-mint": {
+        "role": "neutral",
+        "displayName": "Night Mint Field",
+        "canonical": "#234e43",
+        "tonalRamp": [
+          "oklch(0.1500 0.0519 174.58)",
+          "oklch(0.2643 0.0519 174.58)",
+          "oklch(0.3786 0.0519 174.58)",
+          "oklch(0.4929 0.0519 174.58)",
+          "oklch(0.6071 0.0519 174.58)",
+          "oklch(0.7214 0.0519 174.58)",
+          "oklch(0.8357 0.0519 174.58)",
+          "oklch(0.9500 0.0519 174.58)"
+        ]
+      },
+      "dark-atlas-picker-hover": {
+        "role": "neutral",
+        "displayName": "Dark Atlas Picker Hover",
+        "canonical": "#e8faff1a"
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Page titles and large photographic headlines."
+        "purpose": "Two-line home display, sized to its available copy column."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Major section introductions."
+        "purpose": "Implemented headline hierarchy role."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Service entries and smaller content groups."
+        "purpose": "Implemented title hierarchy role."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Regular copy, editorial paragraphs and legal prose."
+        "purpose": "Implemented body hierarchy role."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Compact actions; navigation and field labels use observed weight variations."
+        "purpose": "Implemented label hierarchy role."
+      },
+      "button-label": {
+        "displayName": "Button Label",
+        "purpose": "Implemented button-label hierarchy role."
+      },
+      "photo-caption": {
+        "displayName": "Photo Caption",
+        "purpose": "Bold country labels below destination photographs."
       }
     },
     "shadows": [
       {
-        "name": "mobile-action-separation",
-        "value": "0 -4px 20px #0b37341a",
-        "purpose": "Separates the fixed mobile inquiry action from scrolling content."
+        "name": "main-photo",
+        "value": "0 22px 38px var(--atlas-shadow)",
+        "purpose": "Large overlapping hero photograph window."
       },
       {
-        "name": "keyboard-focus-contrast",
-        "value": "0 0 0 3px var(--focus-contrast)",
-        "purpose": "Provides contrasting support around the semantic focus outline, without adding content elevation."
+        "name": "companion-photo",
+        "value": "0 17px 30px var(--atlas-shadow)",
+        "purpose": "Smaller tilted photograph window."
+      },
+      {
+        "name": "mobile-action",
+        "value": "0 -4px 20px #0b37341a",
+        "purpose": "Separation above the fixed mobile inquiry action."
+      },
+      {
+        "name": "cursor-plane",
+        "value": "drop-shadow(0 3px 4px rgb(2 34 31 / 28%))",
+        "purpose": "Separation beneath the decorative airplane pointer."
       }
     ],
     "motion": [
       {
-        "name": "control-state",
-        "value": "200ms",
-        "purpose": "Button surface and translation; circular control surface; navigation and testimonial transitions."
+        "name": "arrival",
+        "value": "2s ease-out",
+        "purpose": "Finite initial aircraft arrival reveal."
       },
       {
-        "name": "field-state",
-        "value": "150ms",
-        "purpose": "Inquiry field border and shadow transitions."
+        "name": "country-flight",
+        "value": "1.2s cubic-bezier(.36,0,.25,1)",
+        "purpose": "Destination aircraft pass before photographs reveal."
       },
       {
-        "name": "destination-rail-image",
-        "value": "700ms",
-        "purpose": "Destination rail photograph hover scaling."
+        "name": "photo-reveal",
+        "value": ".3s ease-out",
+        "purpose": "Hero photograph opacity transition."
       },
       {
-        "name": "editorial-image",
-        "value": "500ms",
-        "purpose": "Interior destination photograph hover scaling."
+        "name": "photo-hover",
+        "value": ".6s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Small gallery-image cover zoom."
       },
       {
-        "name": "editorial-image-easing",
-        "value": "cubic-bezier(.16,1,.3,1)",
-        "purpose": "Easing for interior destination image scaling."
+        "name": "cloud-drift",
+        "value": "14s ease-in-out infinite alternate",
+        "purpose": "Ambient cloud movement when permitted."
       },
       {
-        "name": "selected-destination-spring",
-        "value": "{\"type\":\"spring\",\"stiffness\":150,\"damping\":25}",
-        "purpose": "Selected destination scale and opacity emphasis; reduced motion keeps full scale."
+        "name": "convoy-road",
+        "value": "2s linear infinite",
+        "purpose": "Road marks beneath the bus-led destination rail."
+      },
+      {
+        "name": "cursor-turn",
+        "value": "220ms minimum; monotone Hermite ease in/out; 840deg/s maximum",
+        "purpose": "Smooth displayed airplane heading, preserving velocity through same-direction turns without overshoot."
+      },
+      {
+        "name": "cursor-tail",
+        "value": "clamp(20px + filteredSpeed × 200, 20px, 320px); 60ms speed filter; neck min(16px, length × 0.6); 450ms stop fade",
+        "purpose": "Connected ribbon length follows scalar traveled speed in px/ms independently of heading, retaining length through fast reversals. Filtered speed 0.025/0.15/0.5/1/≥1.5 px/ms yields 25/50/120/220/320px. The takeoff seed follows the current speed and the tail joins the displayed airplane angle exactly."
       }
     ],
     "breakpoints": [
       {
-        "name": "wide-hero-min",
-        "value": "1600px"
-      },
-      {
-        "name": "desktop-gutter-max",
+        "name": "wide-container",
         "value": "1100px"
       },
       {
-        "name": "header-compact-max",
-        "value": "980px"
-      },
-      {
-        "name": "header-compact-min",
-        "value": "801px"
-      },
-      {
-        "name": "inquiry-layout-max",
-        "value": "900px"
-      },
-      {
-        "name": "editorial-story-max",
-        "value": "850px"
-      },
-      {
-        "name": "mobile-navigation-max",
+        "name": "stacked-content",
         "value": "800px"
       },
       {
-        "name": "contact-layout-max",
-        "value": "767px"
-      },
-      {
-        "name": "editorial-stack-max",
-        "value": "650px"
-      },
-      {
-        "name": "paired-field-max",
-        "value": "480px"
-      },
-      {
-        "name": "compact-phone-max",
+        "name": "compact-phone",
         "value": "430px"
       },
       {
-        "name": "small-phone-max",
+        "name": "narrow-phone",
         "value": "350px"
+      },
+      {
+        "name": "desktop-pointer",
+        "value": "768px"
       }
     ]
   },
@@ -981,73 +887,17 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Semantic inquiry action with paired text colors that follow Light, Dark or System.",
+      "description": "Bold rounded primary action, with semantic light/dark colors and a small hover lift.",
       "html": "<button type=\"button\" class=\"ds-button-primary\">Plan your trip <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
-      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid transparent;border-radius:4px;background:var(--primary);color:var(--primary-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:600;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-primary:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--primary-hover);color:var(--primary-foreground)}.ds-button-primary:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-primary:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-primary:disabled,.ds-button-primary[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-primary[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}.ds-button-primary:hover{transform:none}}"
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid transparent;border-radius:12px;background:var(--primary);color:var(--primary-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:750;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-primary:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--primary-hover);color:var(--primary-foreground)}.ds-button-primary:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-primary:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-primary:disabled,.ds-button-primary[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-primary[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}.ds-button-primary:hover{transform:none}}"
     },
     {
       "name": "Secondary Button",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Outlined supporting action that keeps the page surface visible.",
+      "description": "Bold rounded outlined action, filling with the subtle surface on hover.",
       "html": "<button type=\"button\" class=\"ds-button-secondary\">Copy inquiry <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
-      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid var(--border-strong);border-radius:4px;background:transparent;color:var(--secondary-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:600;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-secondary:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--secondary);color:var(--secondary-foreground)}.ds-button-secondary:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-secondary:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-secondary:disabled,.ds-button-secondary[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-secondary[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}.ds-button-secondary:hover{transform:none}}"
-    },
-    {
-      "name": "Light Button",
-      "kind": "button",
-      "refersTo": "button-light",
-      "description": "Theme-independent warm white action for photographic backgrounds, with fixed evergreen text.",
-      "html": "<button type=\"button\" class=\"ds-button-light\">Start planning <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
-      "css": ".ds-button-light{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid transparent;border-radius:4px;background:var(--media-button-background);color:var(--media-button-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:600;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-light:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--media-button-hover);color:var(--media-button-foreground)}.ds-button-light:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-light:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-light:disabled,.ds-button-light[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-light[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-light{transition:none}.ds-button-light:hover{transform:none}}"
-    },
-    {
-      "name": "Text Link",
-      "kind": "button",
-      "refersTo": "text-link",
-      "description": "Underlined editorial link with a separated underline and compact directional arrow.",
-      "html": "<a href=\"#destinations\" class=\"ds-text-link\">Explore all destinations <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
-      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;color:var(--foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:650;line-height:1.65;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}.ds-text-link:hover{color:var(--link-hover)}.ds-text-link:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}"
-    },
-    {
-      "name": "Circular Carousel Button",
-      "kind": "button",
-      "refersTo": "icon-button",
-      "description": "Thin circular outline used for destination and testimonial carousel navigation.",
-      "html": "<button type=\"button\" class=\"ds-icon-button\" aria-label=\"Next destination\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button>",
-      "css": ".ds-icon-button{width:48px;height:48px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border:1px solid var(--border-strong);color:var(--foreground);border-radius:50%;transition:background .2s;cursor:pointer}.ds-icon-button:hover:not(:disabled){background:var(--surface-subtle)}.ds-icon-button:active:not(:disabled){background:var(--surface-subtle)}.ds-icon-button:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-icon-button:disabled,.ds-icon-button[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}"
-    },
-    {
-      "name": "Inquiry Text Field",
-      "kind": "input",
-      "refersTo": "input",
-      "description": "Externally labeled destination field with live surface, text, focus and validation colors.",
-      "html": "<div class=\"ds-inquiry-field\"><label class=\"ds-field-label\" for=\"ds-destination\">Destination <span class=\"ds-field-optional\">optional</span></label><input class=\"ds-field-input\" id=\"ds-destination\" type=\"text\" placeholder=\"e.g. Japan\" aria-describedby=\"ds-destination-help\"><p class=\"ds-field-help\" id=\"ds-destination-help\">Share a destination you have in mind.</p></div>",
-      "css": ".ds-inquiry-field{min-width:0;font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-field-label{display:block;color:var(--foreground);font-size:.95rem;font-weight:650;margin-bottom:.6rem}.ds-field-optional{margin-left:.35rem;font-weight:400;font-size:.8rem;color:var(--muted-foreground)}.ds-field-input{display:block;width:100%;min-height:50px;padding:.85rem 1rem;border:1px solid var(--border-strong);border-radius:5px;color:var(--foreground);background:var(--input-background);font:inherit;font-size:1rem;caret-color:var(--primary);transition:border-color .15s,box-shadow .15s}.ds-field-input::placeholder{color:var(--muted-foreground);opacity:1}.ds-field-input:hover:not(:disabled){border-color:var(--primary)}.ds-field-input:focus-visible{border-color:var(--primary);outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-field-input[aria-invalid=\"true\"]{border-color:var(--danger)}.ds-field-input:disabled{opacity:1;color:var(--disabled-foreground);background:var(--disabled-background);border-color:var(--border-strong);cursor:not-allowed}.ds-field-help{margin:.55rem 0 0;color:var(--muted-foreground);font-size:.84rem;line-height:1.65}.ds-field-error{margin:.55rem 0 0;color:var(--danger);font-size:.84rem;line-height:1.6}@media(prefers-reduced-motion:reduce){.ds-field-input{transition:none}}.ds-field-input[aria-invalid=\"true\"],.ds-field-input[aria-invalid=\"true\"]:hover{border-color:var(--danger)}.ds-field-input:-webkit-autofill{-webkit-text-fill-color:var(--foreground);caret-color:var(--primary);-webkit-box-shadow:0 0 0 1000px var(--input-background) inset}.ds-field-input:-webkit-autofill:focus-visible{-webkit-box-shadow:0 0 0 1000px var(--input-background) inset,0 0 0 3px var(--focus-contrast)}"
-    },
-    {
-      "name": "Inquiry Message",
-      "kind": "input",
-      "refersTo": "input",
-      "description": "Resizable message area using the inquiry field treatment with a 210px minimum height.",
-      "html": "<div class=\"ds-inquiry-message\"><label class=\"ds-message-label\" for=\"ds-message\">Your inquiry message</label><textarea class=\"ds-message-textarea\" id=\"ds-message\" rows=\"6\">Hi Prosperity! I would like help planning a trip.</textarea></div>",
-      "css": ".ds-inquiry-message{font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-message-label{display:block;color:var(--foreground);font-size:.95rem;font-weight:650;margin-bottom:.6rem}.ds-message-textarea{display:block;width:100%;padding:.85rem 1rem;border:1px solid var(--border-strong);border-radius:5px;color:var(--foreground);background:var(--input-background);font:inherit;font-size:1rem;caret-color:var(--primary);transition:border-color .15s,box-shadow .15s;resize:vertical;line-height:1.7;min-height:210px}.ds-message-textarea:hover:not(:disabled){border-color:var(--primary)}.ds-message-textarea:focus-visible{border-color:var(--primary);outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-message-textarea:disabled{opacity:1;color:var(--disabled-foreground);background:var(--disabled-background);border-color:var(--border-strong);cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-message-textarea{transition:none}}.ds-message-textarea[aria-invalid=\"true\"],.ds-message-textarea[aria-invalid=\"true\"]:hover{border-color:var(--danger)}.ds-message-textarea:-webkit-autofill{-webkit-text-fill-color:var(--foreground);caret-color:var(--primary);-webkit-box-shadow:0 0 0 1000px var(--input-background) inset}.ds-message-textarea:-webkit-autofill:focus-visible{-webkit-box-shadow:0 0 0 1000px var(--input-background) inset,0 0 0 3px var(--focus-contrast)}"
-    },
-    {
-      "name": "Navigation Links",
-      "kind": "nav",
-      "refersTo": "navigation",
-      "description": "Sentence-case navigation with a heavier current-page label and a thin evergreen underline.",
-      "html": "<nav class=\"ds-navigation\" aria-label=\"Main navigation\"><a class=\"ds-navigation-link\" href=\"#home\" aria-current=\"page\">Home</a><a class=\"ds-navigation-link\" href=\"#destinations\">Destinations</a><a class=\"ds-navigation-link\" href=\"#services\">Services</a></nav>",
-      "css": ".ds-navigation{display:flex;gap:30px;align-items:center;min-height:80px;background:var(--header-background);color:var(--foreground);font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-navigation-link{font-size:.85rem;min-height:44px;display:flex;align-items:center;border-bottom:1px solid transparent;color:inherit;text-decoration:none}.ds-navigation-link[aria-current]{border-bottom-color:var(--primary);font-weight:700}.ds-navigation-link:hover{text-decoration-color:currentColor;color:var(--link-hover)}.ds-navigation-link:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}@media(max-width:1100px){.ds-navigation{gap:18px}}@media(max-width:800px){.ds-navigation{display:block;padding:24px 28px}.ds-navigation-link{justify-content:space-between;padding-block:15px;font-size:1.7rem;border-bottom:0}.ds-navigation-link[aria-current]{text-decoration:underline;text-underline-offset:8px}}@media(min-width:801px) and (max-width:980px){.ds-navigation{gap:12px}.ds-navigation-link{font-size:.78rem}}"
-    },
-    {
-      "name": "Destination Card",
-      "kind": "card",
-      "refersTo": "destination-card",
-      "description": "Tall photograph frame with a readable bottom caption and circular arrow. This asset-free preview labels the media placeholder; production uses project photography.",
-      "html": "<article class=\"ds-destination-card\"><a class=\"ds-destination-photo\" href=\"#turkey\"><svg class=\"ds-destination-media\" viewBox=\"0 0 345 430\" preserveAspectRatio=\"xMidYMid slice\" role=\"img\" aria-label=\"Destination photograph placeholder\"><rect width=\"345\" height=\"430\" fill=\"var(--surface-subtle)\"/><text x=\"172.5\" y=\"175\" text-anchor=\"middle\" fill=\"var(--muted-foreground)\" font-family=\"sans-serif\" font-size=\"14\">Destination photograph</text></svg><div class=\"ds-destination-caption\"><h3 class=\"ds-destination-title\">Türkiye</h3><span class=\"ds-destination-arrow\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></span></div></a><p class=\"ds-destination-copy\">Europe &amp; Asia<span class=\"ds-destination-phrase\">Let your imagination take flight.</span></p></article>",
-      "css": ".ds-destination-card{width:345px;max-width:100%;transform-origin:50% 70%;font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-destination-photo{position:relative;height:430px;display:block;overflow:hidden;border-radius:3px;background:var(--surface-subtle);text-decoration:none}.ds-destination-media{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s}.ds-destination-photo:hover .ds-destination-media{transform:scale(1.045)}.ds-destination-photo:after{content:\"\";position:absolute;inset:0;background:var(--destination-overlay)}.ds-destination-caption{position:absolute;left:26px;right:22px;bottom:22px;display:flex;align-items:center;justify-content:space-between;z-index:1;color:var(--media-foreground)}.ds-destination-title{margin:0;font-size:2rem;font-weight:500;line-height:1.4;letter-spacing:-.02em}.ds-destination-arrow{border:1px solid var(--media-border);background:var(--media-control-background);width:44px;height:44px;display:grid;place-items:center;border-radius:50%}.ds-destination-copy{font-size:.8rem;margin:18px 0 0;color:var(--muted-foreground)}.ds-destination-phrase{display:block;font-size:.9rem;color:var(--foreground);margin-top:4px}.ds-destination-photo:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}@media(max-width:1100px){.ds-destination-card{width:310px}}@media(max-width:800px){.ds-destination-card{width:78vw;max-width:330px}.ds-destination-photo{height:395px}}@media(max-width:350px){.ds-destination-card{width:83vw}.ds-destination-photo{height:340px}}@media(prefers-reduced-motion:reduce){.ds-destination-media{transition:none}.ds-destination-photo:hover .ds-destination-media{transform:none}}"
+      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:14px 23px;border:1px solid var(--border-strong);border-radius:12px;background:transparent;color:var(--secondary-foreground);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.9rem;font-weight:750;line-height:1.4;transition:background .2s,transform .2s;white-space:nowrap;cursor:pointer}.ds-button-secondary:hover:where(:not(:disabled):not([aria-disabled=\"true\"])){transform:translateY(-2px);background:var(--secondary);color:var(--secondary-foreground)}.ds-button-secondary:active:not(:disabled):not([aria-disabled=\"true\"]){transform:translateY(0)}.ds-button-secondary:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-button-secondary:disabled,.ds-button-secondary[aria-disabled=\"true\"]{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-button-secondary[aria-busy=\"true\"]{cursor:progress}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}.ds-button-secondary:hover{transform:none}}"
     },
     {
       "name": "Appearance",
@@ -1056,59 +906,103 @@
       "description": "Two state examples of the single sun/moon appearance button. Production shows the current resolved icon and persists the opposite explicit appearance when activated; the preview demonstrates its control states without a provider runtime.",
       "html": "<button type=\"button\" class=\"ds-theme-toggle\" aria-label=\"Switch to dark theme (currently light)\" title=\"Appearance: System (light). Switch to dark.\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"/><path d=\"M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7\"/></svg></button> <button type=\"button\" class=\"ds-theme-toggle\" aria-label=\"Switch to light theme (currently dark)\" title=\"Appearance: dark. Switch to light.\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454l0 .008\"/></svg></button>",
       "css": ".ds-theme-toggle{width:48px;height:48px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border:1px solid transparent;color:var(--foreground);border-radius:50%;transition:background .2s;cursor:pointer}.ds-theme-toggle:hover:not(:disabled){color:var(--primary);background:var(--surface-subtle)}.ds-theme-toggle:active:not(:disabled){background:var(--surface-subtle)}.ds-theme-toggle:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-theme-toggle:disabled{opacity:1;background:var(--disabled-background);color:var(--disabled-foreground);border-color:var(--border-strong);transform:none;cursor:not-allowed}.ds-theme-toggle:disabled svg{visibility:hidden}"
+    },
+    {
+      "name": "Navigation Links",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Compact desktop navigation with a bold current label and two-pixel rule; larger stacked mobile links.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Main navigation\"><a class=\"ds-navigation-link\" href=\"#home\" aria-current=\"page\">Home</a><a class=\"ds-navigation-link\" href=\"#destinations\">Destinations</a><a class=\"ds-navigation-link\" href=\"#services\">Services</a></nav>",
+      "css": ".ds-navigation{display:flex;gap:30px;align-items:center;min-height:80px;background:var(--header-background);color:var(--foreground);font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-navigation-link{font-size:.85rem;min-height:44px;display:flex;align-items:center;border-bottom:2px solid transparent;color:inherit;text-decoration:none}.ds-navigation-link[aria-current]{border-bottom-color:var(--primary);font-weight:700}.ds-navigation-link:hover{text-decoration-color:currentColor;color:var(--link-hover)}.ds-navigation-link:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}@media(max-width:1100px){.ds-navigation{gap:18px}}@media(max-width:800px){.ds-navigation{display:block;padding:24px 28px}.ds-navigation-link{justify-content:space-between;padding-block:15px;font-size:1.7rem;border-bottom:0}.ds-navigation-link[aria-current]{text-decoration:underline;text-underline-offset:8px}}@media(min-width:801px) and (max-width:980px){.ds-navigation{gap:12px}.ds-navigation-link{font-size:.78rem}}"
+    },
+    {
+      "name": "Inquiry Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Externally labeled inquiry field with appearance-aware surface, visible focus and text-supported validation.",
+      "html": "<div class=\"ds-inquiry-field\"><label class=\"ds-field-label\" for=\"ds-destination\">Destination <span class=\"ds-field-optional\">optional</span></label><input class=\"ds-field-input\" id=\"ds-destination\" type=\"text\" placeholder=\"e.g. Japan\" aria-describedby=\"ds-destination-help\"><p class=\"ds-field-help\" id=\"ds-destination-help\">Share a destination you have in mind.</p></div>",
+      "css": ".ds-inquiry-field{min-width:0;font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-field-label{display:block;color:var(--foreground);font-size:.95rem;font-weight:650;margin-bottom:.6rem}.ds-field-optional{margin-left:.35rem;font-weight:400;font-size:.8rem;color:var(--muted-foreground)}.ds-field-input{display:block;width:100%;min-height:50px;padding:.85rem 1rem;border:1px solid var(--border-strong);border-radius:5px;color:var(--foreground);background:var(--input-background);font:inherit;font-size:1rem;caret-color:var(--primary);transition:border-color .15s,box-shadow .15s}.ds-field-input::placeholder{color:var(--muted-foreground);opacity:1}.ds-field-input:focus-visible{border-color:var(--primary);outline:3px solid var(--focus-ring);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast)}.ds-field-input[aria-invalid=\"true\"]{border-color:var(--danger)}.ds-field-input:disabled{opacity:1;color:var(--disabled-foreground);background:var(--disabled-background);border-color:var(--border-strong);cursor:not-allowed}.ds-field-help{margin:.55rem 0 0;color:var(--muted-foreground);font-size:.84rem;line-height:1.65}.ds-field-error{margin:.55rem 0 0;color:var(--danger);font-size:.84rem;line-height:1.6}@media(prefers-reduced-motion:reduce){.ds-field-input{transition:none}}.ds-field-input[aria-invalid=\"true\"],.ds-field-input[aria-invalid=\"true\"]:hover{border-color:var(--danger)}.ds-field-input:-webkit-autofill{-webkit-text-fill-color:var(--foreground);caret-color:var(--primary);-webkit-box-shadow:0 0 0 1000px var(--input-background) inset}.ds-field-input:-webkit-autofill:focus-visible{-webkit-box-shadow:0 0 0 1000px var(--input-background) inset,0 0 0 3px var(--focus-contrast)}"
+    },
+    {
+      "name": "Country Picker",
+      "kind": "chip",
+      "refersTo": "country-picker",
+      "description": "Sky-region choices with sunshine-yellow pressed state. The preview shows static selected and unselected states.",
+      "html": "<fieldset class=\"ds-country-picker\"><legend>Where would you love to go?</legend><div><button type=\"button\" aria-pressed=\"false\">Japan</button><button type=\"button\" aria-pressed=\"true\">Greece</button><button type=\"button\" aria-pressed=\"false\">Dubai</button></div></fieldset>",
+      "css": ".ds-country-picker{border:0;padding:20px;margin:0;min-width:0;background:var(--atlas-sky,#8edcf4);color:var(--atlas-sky-ink,#0b3734);font-family:var(--font-manrope,Manrope),sans-serif;--focus-ring:var(--atlas-sky-ink,#0b3734);--focus-contrast:var(--atlas-sky,#8edcf4)}.ds-country-picker legend{font-size:.85rem;font-weight:700;padding:0;margin-bottom:12px}.ds-country-picker>div{display:flex;flex-wrap:wrap;gap:8px}.ds-country-picker button{min-height:44px;border:1px solid currentColor;border-radius:10px;padding:8px 13px;font-family:inherit;font-size:.8rem;font-weight:750;background:transparent;color:var(--atlas-sky-ink,#0b3734);transition:background .2s;cursor:pointer}.ds-country-picker button:hover{background:var(--atlas-picker-hover,#f6fcff4d)}.ds-country-picker button[aria-pressed=\"true\"]{border-color:var(--atlas-yellow,#ffd34f);background:var(--atlas-yellow,#ffd34f);color:var(--atlas-yellow-ink,#0b3734)}.ds-country-picker button:focus-visible{outline:3px solid var(--focus-ring,#0b3734);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast,#fffefa)}@media(prefers-reduced-motion:reduce){.ds-country-picker button{transition:none}}"
+    },
+    {
+      "name": "Photo Filters",
+      "kind": "chip",
+      "refersTo": "gallery-filter",
+      "description": "Wrapped destination filters with a primary pressed state and polite photo count. Static preview states require no application runtime.",
+      "html": "<div class=\"ds-photo-filters\" role=\"group\" aria-label=\"Filter destination photos\"><button type=\"button\" aria-pressed=\"true\">All places</button><button type=\"button\" aria-pressed=\"false\">Japan</button><button type=\"button\" aria-pressed=\"false\">Greece</button></div><p class=\"ds-photo-count\" role=\"status\">Destination inspiration</p>",
+      "css": ".ds-photo-filters{display:flex;flex-wrap:wrap;gap:10px;font-family:var(--font-manrope,Manrope),sans-serif}.ds-photo-filters button{color:var(--foreground,#182b26);background:transparent;border:1px solid var(--border-strong,#7a887e);border-radius:12px;padding:10px 18px;min-height:44px;font-family:inherit;font-size:.85rem;font-weight:700;cursor:pointer}.ds-photo-filters button:hover{background:var(--surface-subtle,#dbefe9)}.ds-photo-filters button[aria-pressed=\"true\"]{background:var(--primary,#0b3734);border-color:var(--primary,#0b3734);color:var(--primary-foreground,#fffefa)}.ds-photo-filters button:focus-visible{outline:3px solid var(--focus-ring,#0b3734);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast,#fffefa)}.ds-photo-count{margin:16px 0 28px;color:var(--muted-foreground,#52635c);font-family:var(--font-manrope,Manrope),sans-serif;font-size:.78rem;line-height:1.65}"
+    },
+    {
+      "name": "Gallery Photograph",
+      "kind": "card",
+      "refersTo": "gallery-photo",
+      "description": "Rounded cover-crop window with bold country caption and an underlined destination link. Labeled asset-free placeholder demonstrates geometry; production uses real photography.",
+      "html": "<figure class=\"ds-gallery-photo\"><div class=\"ds-gallery-image\"><svg viewBox=\"0 0 600 400\" preserveAspectRatio=\"xMidYMid slice\" role=\"img\" aria-label=\"Destination photograph placeholder\"><rect width=\"600\" height=\"400\" fill=\"var(--surface-subtle,#dbefe9)\"/><text x=\"300\" y=\"200\" text-anchor=\"middle\" fill=\"var(--muted-foreground,#52635c)\" font-family=\"sans-serif\" font-size=\"20\">Destination photograph</text></svg></div><figcaption class=\"ds-gallery-caption\"><div><span>Greece</span><p>Destination inspiration</p></div><a class=\"ds-gallery-link\" href=\"#greece\">Explore Greece <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></figcaption></figure>",
+      "css": ".ds-gallery-photo{margin:0;max-width:600px;min-width:0;color:var(--foreground,#182b26);font-family:var(--font-manrope,Manrope),sans-serif;line-height:1.65}.ds-gallery-image{position:relative;aspect-ratio:1.5;overflow:hidden;border-radius:24px;background:var(--surface-subtle,#dbefe9)}.ds-gallery-image>svg{display:block;width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.16,1,.3,1)}.ds-gallery-photo:hover .ds-gallery-image>svg{transform:scale(1.035)}.ds-gallery-caption{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding-top:17px}.ds-gallery-caption>div{min-width:0}.ds-gallery-caption span{font-size:1.2rem;font-weight:800}.ds-gallery-caption p{color:var(--muted-foreground,#52635c);font-size:.83rem;margin:4px 0 0}.ds-gallery-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;flex-shrink:0;font-size:.76rem;font-weight:650;color:inherit;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}.ds-gallery-link:hover{color:var(--link-hover,#705823)}.ds-gallery-link:focus-visible{outline:3px solid var(--focus-ring,#0b3734);outline-offset:3px;box-shadow:0 0 0 3px var(--focus-contrast,#fffefa)}@media(max-width:800px){.ds-gallery-image{aspect-ratio:1.4;border-radius:20px}.ds-gallery-caption{gap:12px}.ds-gallery-caption span{font-size:1.1rem}.ds-gallery-link{font-size:.7rem;max-width:110px}}@media(max-width:350px){.ds-gallery-caption{display:block}.ds-gallery-link{max-width:none}}@media(prefers-reduced-motion:reduce){.ds-gallery-image>svg{transition:none}.ds-gallery-photo:hover .ds-gallery-image>svg{transform:none}}"
     }
   ],
   "narrative": {
-    "northStar": "The Evergreen Travel Journal",
-    "overview": "Expansive photographs and clear, finely set Manrope typography create the atmosphere of a considered travel journal. Evergreen anchors the controls and the original oval identity; warm gold supplies a restrained note of warmth. The warm ivory canvas stays quiet so landscapes, travelers and the agency's people retain their natural character.\n\nThe system feels professional and welcoming through generous space, confident headings and direct controls. Editorial image-and-copy compositions coexist with practical forms and compact navigation. Depth comes from photography, tonal surfaces and slight movement rather than a vocabulary of floating panels. The same visual voice extends to destination stories, services, contact details and inquiry planning.",
+    "northStar": "3D Travel Atlas",
+    "overview": "A lively 3D Travel Atlas pairs sky-blue and sunshine-yellow regions with evergreen controls, rounded photographs and softly lit cartoon transport. Real landscapes and real people provide the visual substance; aircraft, coaches, clouds and route marks create an inviting travel atmosphere. Low-contrast cross marks and soft section gradients connect the regions without competing with their copy.\n\nManrope carries a confident, friendly voice through heavy headings, compact controls and clear body text. Photo windows overlap, lean and lift where the composition calls for it. Practical navigation and inquiry fields keep simpler geometry. The transparent original oval identity remains visible within the colorful world.",
     "keyCharacteristics": [
-      "Natural photography at generous scale, with purposeful crops and readable captions.",
-      "Manrope throughout, with medium-weight display type and compact navigation.",
-      "Evergreen actions, warm ivory surfaces and restrained warm gold accents.",
-      "Quiet dividing rules, near-square photographs and gently curved controls.",
-      "Direct manipulation and visible controls with a reduced-motion alternative."
+      "Sky-blue, sunshine-yellow and evergreen regions with paired readable ink.",
+      "Heavy Manrope headings and clear compact controls.",
+      "Real photographs in generously rounded windows, with restrained tilt and soft depth.",
+      "Cartoon dimensional transport, cross marks and soft section gradients.",
+      "Finite transitions, direct carousel controls and a shared motion preference."
     ],
     "rules": [
       {
         "name": "The Role Continuity Rule",
-        "body": "Preserve the assignment of action, text, muted text, surface and rule colors when adapting the appearance. Verify interactive and form states in Light, Dark and System.",
+        "body": "Use semantic appearance roles for ordinary controls and text. Keep sky and yellow regions on their paired ink roles, and preserve fixed brand and photograph contrast roles across light and dark appearances.",
         "section": "colors"
       },
       {
-        "name": "The Media Contrast Rule",
-        "body": "Keep photograph overlays, captions and light media buttons on their dedicated media tokens so they remain readable in Light, Dark and System.",
+        "name": "The Image Evidence Rule",
+        "body": "Use photographs for places and people; keep cartoon aircraft, coaches, clouds and route marks decorative. Preserve the visual distinction between destination inspiration and genuine traveler or team photography.",
         "section": "colors"
       },
       {
         "name": "The One Family Rule",
-        "body": "Carry Manrope across display, navigation, body and controls. Express hierarchy through scale, spacing and weight before introducing another face.",
+        "body": "Use Manrope throughout. Establish hierarchy with size, weight and spacing; keep display headings confident and controls compact.",
         "section": "typography"
       },
       {
         "name": "The Shared Edge Rule",
-        "body": "Align text, controls and editorial image compositions to the shared container. Let intentional media rails extend beyond it while preserving ordinary vertical scrolling.",
+        "body": "Align ordinary content to the shared container. Let photo rails extend intentionally while preserving normal vertical scrolling and visible controls.",
         "section": "layout"
       },
       {
-        "name": "The Photograph Depth Rule",
-        "body": "Use photographs and tonal surface changes to create atmosphere. Keep text surfaces and controls visually disciplined; reserve shadows for an established separation need.",
+        "name": "The Tactile Depth Rule",
+        "body": "Use soft directional shadows for overlapping photograph windows and dimensional travel artwork. Keep ordinary copy, lists and inquiry fields grounded on their section surface.",
         "section": "elevation"
+      },
+      {
+        "name": "The Motion Permission Rule",
+        "body": "Treat arrival and selection transitions as finite events. Pause ambient motion when requested, when reduced motion applies, or when the scene cannot be seen; keep all destinations and inquiry actions usable without animation.",
+        "section": "components"
       }
     ],
     "dos": [
-      "**Do** keep Manrope, evergreen actions and the original oval identity consistent across new surfaces.",
-      "**Do** use natural photographs with deliberate cover crops, readable captions and calm surrounding space.",
-      "**Do** align new editorial content to the shared container and adapt its proportions for mobile.",
-      "**Do** preserve visible keyboard focus, minimum touch height and a reduced-motion alternative.",
-      "**Do** verify text, fields and interactive states in Light and Dark, plus default System behavior, stored explicit choices and device preference changes."
+      "**Do** use the paired sky or yellow ink token on expressive section backgrounds.",
+      "**Do** keep the original logo transparent and preserve fixed brand and photograph contrast roles.",
+      "**Do** use real destination, traveler and team photographs with deliberate cover crops and readable captions.",
+      "**Do** carry rounded photo windows and heavier Manrope typography into new Atlas surfaces.",
+      "**Do** keep visible focus, minimum touch height, manual carousel controls and a static motion alternative."
     ],
     "donts": [
-      "**Don't** turn the restrained gold accent into a large decorative background.",
-      "**Don't** replace quiet editorial compositions with repeated floating panels or heavy card shadows.",
-      "**Don't** apply photographic readability gradients to ordinary text surfaces.",
-      "**Don't** hide carousel operation behind dragging alone or block normal vertical scrolling.",
-      "**Don't** rely on color alone to communicate a field error, selected page or disabled action.",
-      "**Don't** let page-appearance overrides recolor photograph captions, original brand colors or fixed media actions."
+      "**Don't** restore the superseded restrained ivory editorial world in new Atlas surfaces.",
+      "**Don't** put decorative transport, clouds or cross marks over essential copy or controls.",
+      "**Don't** recolor fixed media captions or brand assets through page appearance overrides.",
+      "**Don't** turn every text block into a floating card or use photograph-window shadows on inquiry fields.",
+      "**Don't** rely on dragging, color alone or animation to communicate the available action or selected state."
     ]
   }
 }

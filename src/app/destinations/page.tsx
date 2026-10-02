@@ -9,11 +9,14 @@ export const metadata = pageMeta('Destinations', 'Explore Japan, Korea, Türkiye
 
 export default function DestinationsPage() {
   return (
-    <>
+    <div className="destination-page destination-overview-page">
+      <div className="destination-sky">
       <div className="container page-intro editorial-intro">
         <nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><span aria-current="page">Destinations</span></nav>
         <h1>A world worth exploring.</h1>
         <p>Find a place that speaks to you. We’ll help you turn the idea into a personal travel inquiry.</p>
+        <p className="destination-stock-note">Destination photographs are stock inspiration. Share what catches your eye, then discuss the available arrangements with our team.</p>
+      </div>
       </div>
       <section className="container destination-index" aria-label="Featured destinations">
         {destinations.map((destination) => (
@@ -29,11 +32,13 @@ export default function DestinationsPage() {
           </article>
         ))}
       </section>
+      <div className="destination-inquiry">
       <section className="container section editorial-invitation">
         <h2>Have somewhere else in mind?</h2>
         <p>These are a few starting points. Tell us where you would like to go and the kind of trip you are imagining.</p>
         <Link href="/plan" className="button">Tell us about your trip <IconArrowUpRight size={20} aria-hidden="true" /></Link>
       </section>
-    </>
+      </div>
+    </div>
   );
 }

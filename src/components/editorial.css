@@ -119,3 +119,78 @@
   .destination-entry-image img, .destination-more-link img { transition: none; }
   .destination-entry-link:hover img, .destination-more-link:hover img { transform: none; }
 }
+
+/* The Travel Atlas continues beyond the home page. */
+.destination-page h1, .destination-page h2 { font-weight: 800; }
+.destination-page h3 { font-weight: 750; }
+.destination-sky { --focus-ring: var(--atlas-sky-ink); --focus-contrast: var(--atlas-sky); background: var(--atlas-sky); color: var(--atlas-sky-ink); padding-bottom: clamp(2rem, 5vw, 4rem); }
+.destination-sky .editorial-intro { padding-top: clamp(2rem, 5vw, 4rem); }
+.destination-sky .editorial-intro h1 { font-size: clamp(2.6rem, 7vw, 6rem); line-height: 1.08; letter-spacing: -.035em; }
+.destination-sky .editorial-intro p, .destination-sky .breadcrumb, .destination-sky figcaption { color: var(--atlas-sky-ink); }
+.destination-sky .destination-phrase { font-weight: 600; }
+.destination-sky .button { background: var(--atlas-yellow); color: var(--atlas-yellow-ink); border-radius: 999px; white-space: normal; }
+.destination-sky .button:hover { background: var(--brand-green); color: var(--media-foreground); }
+.destination-stock-note { font-size: .88rem; max-width: 68ch; }
+.destination-overview-page .destination-sky { padding-bottom: 0; }
+.destination-page .destination-index { padding-block: clamp(2.5rem, 5vw, 4.5rem); }
+.destination-page .destination-entry-image { border-radius: 28px; }
+.destination-page .destination-entry-title { margin-top: 1.2rem; }
+.destination-page .destination-entry-title h2 { font-size: clamp(1.9rem, 3.6vw, 3rem); }
+.destination-page .destination-entry-title svg { background: var(--atlas-yellow); color: var(--atlas-yellow-ink); border-radius: 50%; padding: 10px; width: 48px; height: 48px; }
+.destination-page .destination-entry-region { font-weight: 650; }
+.destination-page .destination-hero-image { border-radius: 28px; overflow: hidden; aspect-ratio: 2.1; }
+.destination-page .destination-hero figcaption { margin-top: 1rem; }
+.destination-page .destination-story { align-items: start; }
+.destination-page .destination-story-lead { max-width: 48ch; }
+.destination-page .destination-moods { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+.destination-page .destination-moods li { border: 1px solid var(--border-strong); border-radius: 999px; padding: .55rem .85rem; font-size: .85rem; font-weight: 600; }
+.destination-detail-gallery { display: grid; grid-template-columns: .7fr 1.3fr; align-items: center; gap: clamp(2rem, 6vw, 5rem); padding-bottom: clamp(3rem, 7vw, 6rem); }
+.destination-gallery-heading h2 { max-width: 15ch; font-size: clamp(2rem, 3.4vw, 3.3rem); }
+.destination-gallery-heading p { max-width: 44ch; margin-top: 1.3rem; }
+.destination-gallery-photos { min-width: 0; display: grid; gap: 2rem; }
+.destination-gallery-photos figure { margin: 0; }
+.destination-gallery-photos .photo { aspect-ratio: 1.55; border-radius: 28px; }
+.destination-gallery-photos figcaption { font-size: .8rem; color: var(--muted-foreground); line-height: 1.6; margin-top: 1rem; }
+.destination-gallery-photos figcaption a { display: inline-block; text-decoration: underline; text-underline-offset: 4px; min-height: 44px; padding-block: .7rem; }
+.destination-page .destination-second-view { padding-bottom: clamp(3rem, 7vw, 6rem); }
+.destination-page .destination-second-view .photo, .destination-page .destination-client-story .photo { border-radius: 28px; }
+.destination-page .destination-client-story { padding-bottom: clamp(3rem, 7vw, 6rem); }
+.destination-inquiry { --focus-ring: var(--atlas-yellow-ink); --focus-contrast: var(--atlas-yellow); background: var(--atlas-yellow); color: var(--atlas-yellow-ink); }
+.destination-inquiry .section { padding-block: clamp(3rem, 6vw, 5rem); }
+.destination-inquiry p, .destination-inquiry h2, .destination-inquiry h3 { color: var(--atlas-yellow-ink); }
+.destination-inquiry .button { background: var(--brand-green); color: var(--media-foreground); border-radius: 999px; white-space: normal; }
+.destination-inquiry .button:hover { background: var(--atlas-sea); color: var(--media-foreground); }
+.destination-inquiry .text-link { color: var(--atlas-yellow-ink); }
+.destination-inquiry .text-link:hover { color: var(--atlas-yellow-ink); text-decoration-thickness: 2px; }
+.destination-inquiry .destination-assistance-list { border-color: var(--atlas-yellow-ink); }
+.destination-page .destination-more-link .photo { border-radius: 24px; }
+.destination-page .destination-more-link > span { font-weight: 750; }
+.destination-page .destination-more-link svg { color: var(--atlas-yellow-ink); background: var(--atlas-yellow); border-radius: 50%; width: 44px; height: 44px; padding: 10px; flex-shrink: 0; }
+@media (max-width: 850px) {
+  .destination-detail-gallery { grid-template-columns: 1fr; gap: 2rem; }
+  .destination-gallery-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
+  .destination-gallery-heading p { margin-top: .2rem; }
+  .destination-gallery-photos .photo { aspect-ratio: 1.7; }
+}
+@media (max-width: 650px) {
+  .destination-sky .editorial-intro h1 { font-size: clamp(2.6rem, 12vw, 4.3rem); }
+  .destination-sky .editorial-intro > .button { max-width: 100%; gap: .6rem; padding-inline: 1.1rem; }
+  .destination-sky .button svg, .destination-inquiry .button svg { flex-shrink: 0; }
+  .destination-page .destination-entry-image, .destination-page .destination-entry:first-child .destination-entry-image { aspect-ratio: 1.25; border-radius: 22px; }
+  .destination-page .destination-entry-title h2 { font-size: 2.2rem; }
+  .destination-page .destination-hero-image { aspect-ratio: 1.2; border-radius: 22px; }
+  .destination-page .destination-story { gap: 2rem; }
+  .destination-gallery-heading { grid-template-columns: 1fr; gap: 1rem; }
+  .destination-gallery-heading h2 { max-width: 18ch; }
+  .destination-gallery-heading p { margin-top: 0; }
+  .destination-gallery-photos .photo { aspect-ratio: 1.2; border-radius: 22px; }
+  .destination-page .destination-second-view .photo, .destination-page .destination-client-story .photo, .destination-page .destination-more-link .photo { border-radius: 22px; }
+  .destination-inquiry .destination-assistance-list { margin-block: 1.8rem; }
+  .destination-inquiry .button { max-width: 100%; gap: .65rem; }
+}
+@media (max-width: 350px) {
+  .destination-sky .editorial-intro h1 { font-size: 2.5rem; }
+  .destination-page .destination-entry-title h2 { font-size: 2rem; }
+  .destination-page .destination-moods li { font-size: .8rem; padding-inline: .7rem; }
+  .destination-inquiry .button { padding-inline: 1rem; font-size: .85rem; }
+}
