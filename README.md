@@ -22,7 +22,7 @@ Quality checks are `npm run lint` and `npm run typecheck`.
 
 ## Travel Atlas experience
 
-The homepage uses a cartoon travel world: sky, sunshine and mint gradients, subtle cross marks, overlapping destination postcards, a three-dimensional plane and coaches, a filterable ten-photo destination gallery, actual traveler photographs and Prosperity's five sourced core values beside the real team.
+The homepage uses a cartoon travel world: sky, sunshine and mint gradients, subtle cross marks, overlapping destination postcards, a three-dimensional plane and service coach, a filterable twenty-photo destination gallery, actual traveler photographs and Prosperity's five sourced core values beside the real team.
 
 Open or refresh plays a finite two-second airplane arrival. Desktop destination choices play a 1.5-second departure and return before their photographs appear. The airplane starts and finishes at the same resting pose, and rapid choices update the requested destination without restarting the flight. The destination rail loops automatically and supports mouse/touch dragging, arrows and keyboard navigation. Perspective photo cards bring the center destination forward and angle the side cards away. The service coach retains its suspension and road animation. Pause carousel controls that rail; Pause animations governs ambient page movement through the optional `prosperity-motion` browser preference. Hover, focus, hidden tabs and offscreen placement stop the appropriate movement. Small screens keep ambient scenes still and country changes immediate, with manual 3D photo dragging retained. OS reduced motion also flattens the carousel.
 
